@@ -1,0 +1,327 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*-----------------RESET CSS--------------
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+-----------------------------------------------------------------------*/
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+    min-width: 1140px;
+}
+
+body{
+    background-image: url("https://i.pinimg.com/originals/32/26/52/322652e458d6282c7a3f398f5c9cecff.jpg");
+    
+}
+.content{
+    
+    box-sizing: border-box;
+    margin:0;
+    padding: 150px;
+    min-width: 100vw;
+    min-height: 100vh;
+    text-align: center;
+   
+
+   
+}
+
+
+
+.languages{
+    position: absolute;
+    background-color:red;
+    width: 410px;
+    height: 200px;
+    transform: translate(95px,250px);
+ 
+    
+   
+    z-index: 3;
+}
+.person{
+    position: absolute;
+    background-color:whitesmoke;
+    width: 560px;
+    height: 400px;
+    transform: translate(405px,100px);
+    z-index: 2;
+
+}
+.profile{
+    position: absolute;
+    background-color:yellowgreen;
+    width: 300px;
+    height: 300px;
+    transform: translate(700px,-90px);
+    z-index: 5;
+
+}
+
+.interest{
+    width: 810px;
+    height: 800px;
+    left: 30px;
+}
+
+.education{
+    position: absolute;
+    background-color:red;
+    width: 510px;
+    height: 300px;
+    transform: translate(95px,600px);
+ 
+    
+   
+    z-index: 2;
+}
+.experience{
+    position: absolute;
+    background-color:whitesmoke;
+    width: 520px;
+    height: 540px;
+    transform: translate(505px,250px);
+    z-index: 4;
+
+}
+.skillSet{
+    position: absolute;
+    background-color:yellowgreen;
+    width: 500px;
+    height: 300px;
+    transform: translate(100px,60px);
+    z-index: 2;
+
+}
+
+.hiredRebecca{
+    position: absolute;
+    background-color:black;
+    width: 250px;
+    height: 100px;
+    transform: translate(830px,770px);
+    z-index: 6;
+}
+
+.sobriety{
+    position: absolute;
+    background-color:black;
+    width: 250px;
+    height: 300px;
+    transform: translate(860px,120px);
+    z-index: 1;
+}
+
+
+/*---------------------------------------------------------*/
+
+div.folder{
+    position: absolute;
+    width: 700px;
+    height: 490px;
+    margin:0 auto;
+    margin-top:150px;
+    border:3px solid black;
+    border-radius:10px;
+    box-shadow:20px 20px 20px #333;
+     overflow:hidden;
+     left:40px;
+     z-index:1;
+     transform:translate(250px, -220px);
+      ;
+ 
+     
+     
+     }
+     
+     div.folder:before{
+         content:'';
+         position:absolute;
+            border: 1px solid rgba(255, 255, 255, 0.28);
+            border:1px solid black;
+         width:680px;
+         height:420px;
+         box-shadow: 0px 0px 0px 2000px white;
+         left:7px; top:45px;
+         z-index:1;
+         
+     }
+
+     div.glassmorphism{
+        /* From https://css.glass */
+        background: rgba(255, 255, 255, 0.16);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(6.3px);
+        -webkit-backdrop-filter: blur(6.3px);
+        border: 1px solid rgba(255, 255, 255, 0.28);
+         position:absolute;
+        transform: translate(150px, -25px);
+        width:680px;
+        height:420px;
+       
+        z-index:-1;
+         }
+         
+     .windowsTitleBlock{
+         position:absolute;
+         transform:translate(140px, -95px);
+         width:300px;
+         height: 40px;
+         background: white;
+         border-top:3px black solid;
+         border-left:3px black solid;
+         border-right:3px black solid;
+         border-radius:10px 10px 0 0;
+        z-index: 2            
+            }
+
+       .whiteBlock{
+         position:absolute;
+         width:349px;
+         height:30px;
+         background-color:white;
+         bottom:10px;
+        transform:translate(225px, -517.5px);
+        z-index: 3;
+               }
+    
+      .portafolio-button-group{
+        position: absolute;
+         width:250px;
+         height:250px;
+         transform:translate(660px,-60px);
+         z-index: 4;
+         float: left;
+
+            }
+     button.minimize{
+         color:black;
+        background:white;
+            }
+     button.minimize:hover{
+        background:blue;
+            }
+            
+     button.maximize{
+        color:black;
+        background:white;
+            }
+            
+    button.close{
+        color:black;
+     background:white;
+            }
+            
+    button.close:hover{
+        background:red;
+            }
+
+    #portafolioInput{
+        position:absolute;
+        border:2px solid black;
+        width:420px;
+        transform: translate(-500px, 0);
+        z-index:10;
+            }
+
+       
+            div.principalSite{
+                position:absolute;
+                transform:translate(170px, 15px);
+                background-color:white;
+                width:180px;
+                height:350px;
+                border:2px solid black;
+                z-index:2 ;
+            }
+            
+            div.webPreference
+            {
+             position:absolute;
+             transform:translate(200px, 50px);
+             background-color:white;
+             width:180px;
+             height:120px;
+             border-top:2px solid black;
+             border-left:2px solid black;
+             border-right: 2px solid black;
+             z-index: 2;
+             
+            }
+            
+           div.siteRight{
+            transform: translate(580px, 15px);
+            }
+
+            div.siteLeft
+            {
+            transform:translate(370px ,15px);
+            }
+            
+            div.siteBottomRight{
+            transform:translate(580px,185px);
+            }
+            
+            div.siteBottomLeft{
+            transform:translate(370px ,185px);
+            }
+            
+            footer.blueFooter{
+                position:absolute;
+                transform:translate(-2px, 115px);
+                background-color:blue;
+                width:180px;
+                height:20px;
+                border-bottom:2px solid black;
+                border-left:2px solid black;
+                border-right: 2px solid black;
+            }
+            
