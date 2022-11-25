@@ -377,7 +377,7 @@ header.languagesHeader {
     font-size: 18px;
     display: flex;
     transform: translate(20px, -25px);
-    z-index: 100;
+    z-index: 3;
     color: black;
 
 }
@@ -535,6 +535,12 @@ div.interestfolder:before {
     z-index: 3;
 }
 
+#interest-Paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
 div.interestGlass {
     width: 685px;
     height: 725px;
@@ -600,6 +606,14 @@ div.interestGlass {
 
 }
 
+#education-Paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    display: flex;
+    transform: translate(20px, -25px);
+    z-index: 100;
+    color: black;
+}
 
 .experience {
     position: absolute;
@@ -621,6 +635,14 @@ div.interestGlass {
 .experience-buttons{
     transform: translate(208px,3px);
 
+}
+#experience-Paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    display: flex;
+    transform: translate(20px, -25px);
+    z-index: 100;
+    color: black;
 }
 
 #experiences-footer{
@@ -653,6 +675,15 @@ div.interestGlass {
 
 }
 
+#skillSet-Paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    display: flex;
+    transform: translate(20px, -25px);
+    z-index: 100;
+    color: black;
+}
+
 .hiredRebecca {
     position: absolute;
     background-color: white;
@@ -670,6 +701,15 @@ div.interestGlass {
     width: 248px;
     height: 40px;
     z-index: 5;
+}
+
+#hiredRebecca-Paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    display: flex;
+    transform: translate(20px, -25px);
+    z-index: 100;
+    color: black;
 }
 .YesOrNo-buttons{
     width: 250px;
@@ -706,6 +746,13 @@ div.interestGlass {
     height: 300px;
     transform: translate(860px, 120px);
     z-index: 1;
+}
+
+.Sobriety-Paragraphs{
+    color: white;
+    letter-spacing: 2px;
+    margin-top: -2px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
