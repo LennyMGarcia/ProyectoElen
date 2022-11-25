@@ -173,7 +173,7 @@ div.portafoliofolder {
     left: 40px;
     z-index: 1;
     transform: translate(250px, -220px);
-    ;
+    
 
 
 
@@ -222,15 +222,32 @@ div.glassmorphism {
     z-index: 2;
 }
 
+#portafolio-paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    color: black;
+    
+    
+}
+.bi-star{
+    display: flex;
+    font-size: 30px;
+    font-weight: bolder;
+    z-index: 4;
+    transform: translate(-485px,-30px);
+}
+
 .whiteBlock {
-    position: absolute;
+    position: sticky;
     width: 349px;
     height: 30px;
     background-color: white;
     bottom: 10px;
-    transform: translate(225px, -517.5px);
+    transform: translate(160px,-67px);
     z-index: 3;
 }
+
+
 
 
 
@@ -285,7 +302,9 @@ div.principalSite {
     border: 2px solid black;
     z-index: 2;
 }
-
+.bi-suit-heart-fill{
+    font-size: 80px;
+}
 div.webPreference {
     position: absolute;
     transform: translate(200px, 50px);
@@ -353,6 +372,16 @@ header.languagesHeader {
     height: 40px;
 }
 
+#languages-paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    display: flex;
+    transform: translate(20px, -25px);
+    z-index: 100;
+    color: black;
+
+}
+
 .languages-buttons {
     transform: translate(155px, 3px);
 }
@@ -390,6 +419,29 @@ header.personHeader {
 
 }
 
+.Person-description{
+    padding-top: 50px;
+
+}
+
+.house{
+    display: flex;
+    padding-left: 30px;
+   
+}
+
+.website{
+    display: flex;
+    padding-left: 30px;
+    margin-top: -10px;
+}
+
+.e-mail{
+    display: flex;
+    padding-left: 30px;
+    margin-top: -10px;
+}
+
 .profile {
     position: absolute;
     background-color: white;
@@ -403,11 +455,28 @@ header.personHeader {
 
 }
 
+#person-text{
+    text-align: justify;
+    padding-top: 25px;
+    padding-left: 115px;
+    padding-right: 25px;
+}
+
 header.profileHeader {
     width: 300px;
     height: 40px;
 
 
+}
+
+#profile-paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    display: flex;
+    transform: translate(20px, -25px);
+    color: black;
+    
+    
 }
 
 .profile-buttons {
@@ -435,11 +504,12 @@ div.interestfolder {
     left: 40px;
     z-index: 1;
     transform: translate(350px, -220px);
-    ;
+    
 
 
 
 }
+
 
 div.interestfolder:before {
     content: '';
@@ -453,6 +523,16 @@ div.interestfolder:before {
     top: 45px;
     z-index: 1;
 
+}
+
+.interestWhiteBlock{
+    position: sticky;
+    width: 349px;
+    height: 30px;
+    background-color: white;
+    bottom: 10px;
+    transform: translate(280px,-67px);
+    z-index: 3;
 }
 
 div.interestGlass {
@@ -507,7 +587,7 @@ div.interestGlass {
     transform: translate(95px, 600px);
 
 
-    z-index: 20;
+    z-index: 2;
 }
 
 .education-HeaderElements{
