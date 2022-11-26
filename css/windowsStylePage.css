@@ -160,6 +160,20 @@ body {
 
 }
 
+.second-content {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 150px;
+    min-width: 100vw;
+    min-height: 100vh;
+    text-align: center;
+    height: 1000vh;
+
+}
+
+
+
 div.portafoliofolder {
     position: absolute;
     width: 700px;
@@ -757,9 +771,153 @@ div.interestGlass {
 
 
 /*---------------------------------------------------------*/
+article#Digital-representation{
+    position: relative;
+    box-sizing: border-box;
+    margin: 0;
+    padding-top: 350px;
+    min-width: 100vw;
+    min-height: 100vh;
+    height: 1200px;
+    text-align: center;
+    background-color: blueviolet;
 
+}
 
+.digital-illustration{
+    position: absolute;
+    background-color: white;
+    width: 402px;
+    height: 602px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: translate(100px, -90px);
+    z-index: 5;
+}
 
+.Digital-fish{
+    position: absolute;
+    background-color: white;
+    width: 202px;
+    height: 202px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: translate(70px, 390px);
+    z-index: 5;
+}
+
+.Digital-Computer{
+    position: absolute;
+    background-color: white;
+    width: 202px;
+    height: 202px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: translate(200px, 550px);
+    z-index: 5;
+}
+
+.Digital-World{
+    position: absolute;
+    background-color: white;
+    width: 502px;
+    height: 202px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: translate(520px, 450px);
+    z-index: 5;
+}
+
+.fishy{
+    position: absolute;
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: translate(450px, 160px);
+    z-index: 7;
+
+}
+
+article#Library{
+    position: relative;
+    box-sizing: border-box;
+    margin: 0;
+    padding-top: 150px;
+    min-width: 100vw;
+    min-height: 100vh;
+    height: 1200px;
+    text-align: center;
+    background-color:red;
+
+}
+
+.Compaign{
+    position: absolute;
+    background-color: white;
+    width: 450px;
+    height: 400px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: translate(550px, 0px);
+    z-index: 7;
+}
+
+.Book{
+    position: absolute;
+    background-color: white;
+    width: 502px;
+    height: 602px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: translate(100px, -90px);
+    z-index: 5;
+}
+
+.Poster{
+    position: absolute;
+    background-color: white;
+    width: 252px;
+    height: 302px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: translate(70px, 600px);
+    z-index: 5;
+}
+
+.Paper{
+    position: absolute;
+    background-color: white;
+    width: 202px;
+    height: 302px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: translate(500px, 650px);
+    z-index: 5;
+
+}
+
+.Notebook{
+    position: absolute;
+    background-color: white;
+    width: 302px;
+    height: 302px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: translate(270px, 450px);
+    z-index: 5;
+}
 
 
 
