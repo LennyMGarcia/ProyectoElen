@@ -780,12 +780,13 @@ article#Digital-representation{
     min-height: 100vh;
     height: 1200px;
     text-align: center;
-    background-color: blueviolet;
+   
 
 }
 
 .digital-illustration{
     position: absolute;
+    background-image: url("");
     background-color: white;
     width: 402px;
     height: 602px;
