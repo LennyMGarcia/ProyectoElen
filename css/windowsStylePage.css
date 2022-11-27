@@ -919,7 +919,155 @@ article#Library{
     z-index: 5;
 }
 
+article#Elevator{
+    position: relative;
+    box-sizing: border-box;
+    margin: 0;
+    padding-top: 150px;
+    min-width: 100vw;
+    min-height: 100vh;
+    height: 1800px;
+    text-align: center;
+    background-color: blue;
 
+}
+
+.middleElevator{
+    position: absolute;
+    background-color: white;
+    width: 602px;
+    height: 402px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: translate(100px, -90px);
+    z-index: 5;
+}
+
+.downElevator{
+    position: absolute;
+    background-color: white;
+    width: 552px;
+    height: 302px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: translate(70px, 600px);
+    z-index: 5;
+}
+
+.upElevator{
+    position: absolute;
+    background-color: white;
+    width: 502px;
+    height: 302px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: translate(500px, 500px);
+    z-index: 5;
+
+}
+
+.Pocky{
+    position: absolute;
+    background-color: white;
+    width: 450px;
+    height: 300px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: translate(550px, 170px);
+    z-index: 7;
+}
+
+.Mansion{
+    position: absolute;
+    background-color: white;
+    width: 650px;
+    height: 500px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: translate(550px, 1070px);
+    z-index: 7;
+}
+
+.elevator-Reference{
+    position: absolute;
+    background-color: white;
+    width: 450px;
+    height: 300px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: translate(150px, 1170px);
+    z-index: 7;
+}
+--------------------------
+
+article#Ideas{
+    position: relative;
+    box-sizing: border-box;
+    margin: 0;
+    padding-top: 150px;
+    min-width: 100vw;
+    min-height: 100vh;
+    height: 1200px;
+    text-align: center;
+    background-color:black;
+
+}
+
+.Typography-image{
+    position: absolute;
+    background-color: white;
+    width: 602px;
+    height: 752px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: translate(500px, 100px);
+    z-index: 5;
+
+}
+
+.cun{
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    height: 480px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: translate(100px, 170px);
+    z-index: 7;
+}
+
+.collaterals{
+    position: absolute;
+    background-color: white;
+    width: 502px;
+    height: 402px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: translate(100px, 900px);
+    z-index: 5;
+
+}
+
+.cun-col{
+    position: absolute;
+    background-color: white;
+    width: 350px;
+    height: 250px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: translate(550px, 970px);
+    z-index: 7;
+}
 
 
 
