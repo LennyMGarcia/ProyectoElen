@@ -796,6 +796,24 @@ article#Digital-representation{
     z-index: 5;
 }
 
+.digital-Illustration-Header{
+    width: 400px;
+    height: 40px;
+}
+
+#digital-illustrationParagraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    display: flex;
+    transform: translate(20px, -25px);
+    z-index: 100;
+    color: black;
+}
+
+.digital-illustration-buttons{
+    transform: translate(148px,3px);
+}
+
 .Digital-fish{
     position: absolute;
     background-color: white;
@@ -808,6 +826,25 @@ article#Digital-representation{
     z-index: 5;
 }
 
+.Digital-fish-Header{
+    width: 200px;
+    height: 40px;
+}
+
+#Digital-fish-Paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    display: flex;
+    transform: translate(20px, -25px);
+    z-index: 100;
+    color: black;
+}
+
+.Digital-fish-buttons{
+    transform: translate(50px,3px);
+}
+
+
 .Digital-Computer{
     position: absolute;
     background-color: white;
@@ -818,6 +855,24 @@ article#Digital-representation{
     border-bottom: 2px solid black;
     transform: translate(200px, 550px);
     z-index: 5;
+}
+
+.Digital-Computer-Header{
+    width: 200px;
+    height: 40px;
+}
+
+#Digital-Computer-Paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    display: flex;
+    transform: translate(20px, -25px);
+    z-index: 100;
+    color: black;
+}
+
+.Digital-Computer-buttons{
+    transform: translate(50px,3px);
 }
 
 .Digital-World{
@@ -832,10 +887,28 @@ article#Digital-representation{
     z-index: 5;
 }
 
+.Digital-World-Header{
+    width: 500px;
+    height: 40px;
+}
+
+#Digital-World-Paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    display: flex;
+    transform: translate(20px, -25px);
+    z-index: 100;
+    color: black;
+}
+
+.Digital-World-buttons{
+    transform: translate(200px,3px);
+}
+
 .fishy{
     position: absolute;
     background-color: white;
-    width: 500px;
+    width: 502px;
     height: 250px;
     border-right: 2px solid black;
     border-left: 2px solid black;
@@ -843,6 +916,24 @@ article#Digital-representation{
     transform: translate(450px, 160px);
     z-index: 7;
 
+}
+
+.fishy-Header{
+    width: 500px;
+    height: 40px;
+}
+
+#fishy-Paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    display: flex;
+    transform: translate(20px, -25px);
+    z-index: 100;
+    color: black;
+}
+
+.fishy-buttons{
+    transform: translate(200px,3px);
 }
 
 article#Library{
@@ -861,13 +952,31 @@ article#Library{
 .Compaign{
     position: absolute;
     background-color: white;
-    width: 450px;
+    width: 452px;
     height: 400px;
     border-right: 2px solid black;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
     transform: translate(550px, 0px);
     z-index: 7;
+}
+
+.Compaign-Header{
+    width: 450px;
+    height: 40px;
+}
+
+#Compaign-Paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    display: flex;
+    transform: translate(20px, -25px);
+    z-index: 100;
+    color: black;
+}
+
+.Compaign-buttons{
+    transform: translate(175px,3px);
 }
 
 .Book{
@@ -882,6 +991,24 @@ article#Library{
     z-index: 5;
 }
 
+.Book-Header{
+    width: 500px;
+    height: 40px;
+}
+
+#Book-Paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    display: flex;
+    transform: translate(20px, -25px);
+    z-index: 100;
+    color: black;
+}
+
+.Book-buttons{
+    transform: translate(200px,3px);
+}
+
 .Poster{
     position: absolute;
     background-color: white;
@@ -893,6 +1020,25 @@ article#Library{
     transform: translate(70px, 600px);
     z-index: 5;
 }
+
+.Poster-Header{
+    width: 250px;
+    height: 40px;
+}
+
+#Poster-Paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    display: flex;
+    transform: translate(20px, -25px);
+    z-index: 100;
+    color: black;
+}
+
+.Poster-buttons{
+    transform: translate(75px,3px);
+}
+
 
 .Paper{
     position: absolute;
@@ -907,6 +1053,24 @@ article#Library{
 
 }
 
+.Paper-Header{
+    width: 200px;
+    height: 40px;
+}
+
+#Paper-Paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    display: flex;
+    transform: translate(20px, -25px);
+    z-index: 100;
+    color: black;
+}
+
+.Paper-buttons{
+    transform: translate(50px,3px);
+}
+
 .Notebook{
     position: absolute;
     background-color: white;
@@ -917,6 +1081,24 @@ article#Library{
     border-bottom: 2px solid black;
     transform: translate(270px, 450px);
     z-index: 5;
+}
+
+.Notebook-Header{
+    width: 300px;
+    height: 40px;
+}
+
+#Notebook-Paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    display: flex;
+    transform: translate(20px, -25px);
+    z-index: 100;
+    color: black;
+}
+
+.Notebook-buttons{
+    transform: translate(100px,3px);
 }
 
 article#Elevator{
@@ -944,6 +1126,24 @@ article#Elevator{
     z-index: 5;
 }
 
+.middleElevator-Header{
+    width: 600px;
+    height: 40px;
+}
+
+#middleElevator-Paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    display: flex;
+    transform: translate(20px, -25px);
+    z-index: 100;
+    color: black;
+}
+
+.middleElevator-buttons{
+    transform: translate(250px,3px);
+}
+
 .downElevator{
     position: absolute;
     background-color: white;
@@ -953,7 +1153,25 @@ article#Elevator{
     border-left: 2px solid black;
     border-bottom: 2px solid black;
     transform: translate(70px, 600px);
-    z-index: 5;
+    z-index: 6;
+}
+
+.downElevator-Header{
+    width: 550px;
+    height: 40px;
+}
+
+#downElevator-Paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    display: flex;
+    transform: translate(20px, -25px);
+    z-index: 100;
+    color: black;
+}
+
+.downElevator-buttons{
+    transform: translate(225px,3px);
 }
 
 .upElevator{
@@ -969,10 +1187,28 @@ article#Elevator{
 
 }
 
+.upElevator-Header{
+    width: 500px;
+    height: 40px;
+}
+
+#upElevator-Paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    display: flex;
+    transform: translate(20px, -25px);
+    z-index: 100;
+    color: black;
+}
+
+.upElevator-buttons{
+    transform: translate(200px,3px);
+}
+
 .Pocky{
     position: absolute;
     background-color: white;
-    width: 450px;
+    width: 452px;
     height: 300px;
     border-right: 2px solid black;
     border-left: 2px solid black;
@@ -981,10 +1217,28 @@ article#Elevator{
     z-index: 7;
 }
 
+.Pocky-Header{
+    width: 450px;
+    height: 40px;
+}
+
+#Pocky-Paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    display: flex;
+    transform: translate(20px, -25px);
+    z-index: 100;
+    color: black;
+}
+
+.Pocky-buttons{
+    transform: translate(175px,3px);
+}
+
 .Mansion{
     position: absolute;
     background-color: white;
-    width: 650px;
+    width: 652px;
     height: 500px;
     border-right: 2px solid black;
     border-left: 2px solid black;
@@ -993,16 +1247,52 @@ article#Elevator{
     z-index: 7;
 }
 
+.Mansion-Header{
+    width: 650px;
+    height: 40px;
+}
+
+#Mansion-Paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    display: flex;
+    transform: translate(20px, -25px);
+    z-index: 100;
+    color: black;
+}
+
+.Mansion-buttons{
+    transform: translate(275px,3px);
+}
+
 .elevator-Reference{
     position: absolute;
     background-color: white;
-    width: 450px;
+    width: 452px;
     height: 300px;
     border-right: 2px solid black;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
     transform: translate(150px, 1170px);
-    z-index: 7;
+    z-index: 8;
+}
+
+.elevator-Reference-Header{
+    width: 450px;
+    height: 40px;
+}
+
+#elevator-Reference-Paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    display: flex;
+    transform: translate(20px, -25px);
+    z-index: 100;
+    color: black;
+}
+
+.elevator-Reference-buttons{
+    transform: translate(175px,3px);
 }
 --------------------------
 
@@ -1032,16 +1322,52 @@ article#Ideas{
 
 }
 
+.Typography-image-Header{
+    width: 600px;
+    height: 40px;
+}
+
+#Typography-image-Paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    display: flex;
+    transform: translate(20px, -25px);
+    z-index: 100;
+    color: black;
+}
+
+.Typography-image-buttons{
+    transform: translate(250px,3px);
+}
+
 .cun{
     position: absolute;
     background-color: white;
-    width: 250px;
+    width: 252px;
     height: 480px;
     border-right: 2px solid black;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
     transform: translate(100px, 170px);
     z-index: 7;
+}
+
+.cun-Header{
+    width: 250px;
+    height: 40px;
+}
+
+#cun-Paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    display: flex;
+    transform: translate(20px, -25px);
+    z-index: 100;
+    color: black;
+}
+
+.cun-buttons{
+    transform: translate(75px,3px);
 }
 
 .collaterals{
@@ -1057,16 +1383,52 @@ article#Ideas{
 
 }
 
+.collaterals-Header{
+    width: 500px;
+    height: 40px;
+}
+
+#collaterals-Paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    display: flex;
+    transform: translate(20px, -25px);
+    z-index: 100;
+    color: black;
+}
+
+.collaterals-buttons{
+    transform: translate(200px,3px);
+}
+
 .cun-col{
     position: absolute;
     background-color: white;
-    width: 350px;
+    width: 352px;
     height: 250px;
     border-right: 2px solid black;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
     transform: translate(550px, 970px);
     z-index: 7;
+}
+
+.cun-col-Header{
+    width: 350px;
+    height: 40px;
+}
+
+#cun-col-Paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    display: flex;
+    transform: translate(20px, -25px);
+    z-index: 100;
+    color: black;
+}
+
+.cun-col-buttons{
+    transform: translate(125px,3px);
 }
 
 
