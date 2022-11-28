@@ -93,7 +93,7 @@ video {
     vertical-align: baseline;
 }
 
-HTML5 display-role reset for older browsers article,
+/*HTML5 display-role reset for older browsers article*/
 aside,
 details,
 figcaption,
@@ -148,6 +148,12 @@ body {
     background-image: url("https://i.pinimg.com/originals/32/26/52/322652e458d6282c7a3f398f5c9cecff.jpg");
 
 }
+img{
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+}
+
 
 .content {
 
@@ -157,7 +163,32 @@ body {
     min-width: 100vw;
     min-height: 100vh;
     text-align: center;
+    padding-top:250px ;
+  
 
+}
+header#Header{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #333;
+    height: 50px;
+    
+    min-width: 100vw;
+    width: 150vw;
+    position: fixed;
+    z-index: 200;
+    
+}
+
+footer#Footer{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #333;
+    height: 300px;
+    min-width: 100vw;
+    width: 150vw;
+    
+    
 }
 
 .second-content {
@@ -168,7 +199,8 @@ body {
     min-width: 100vw;
     min-height: 100vh;
     text-align: center;
-    height: 1000vh;
+    height: 1100vh;
+    padding-top: 250px;
 
 }
 
@@ -786,7 +818,7 @@ article#Digital-representation{
 
 .digital-illustration{
     position: absolute;
-    background-image: url("");
+    
     background-color: white;
     width: 402px;
     height: 602px;
@@ -813,6 +845,13 @@ article#Digital-representation{
 
 .digital-illustration-buttons{
     transform: translate(148px,3px);
+}
+
+#digital-illustration-image{
+    height: auto;
+    padding-top: 50px;
+    object-fit: contain;
+    width: 100%;
 }
 
 .Digital-fish{
@@ -876,15 +915,20 @@ article#Digital-representation{
     transform: translate(50px,3px);
 }
 
+#Digital-Computer-Image{
+    padding-top:45px ;
+   
+}
+
 .Digital-World{
     position: absolute;
     background-color: white;
     width: 502px;
-    height: 202px;
+    height: 702px;
     border-right: 2px solid black;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
-    transform: translate(520px, 450px);
+    transform: translate(620px, 200px);
     z-index: 5;
 }
 
@@ -906,6 +950,13 @@ article#Digital-representation{
     transform: translate(200px,3px);
 }
 
+#Digital-World-Image{
+    height:auto;
+    padding-top: 10px;
+    object-fit: fill;
+    width: 450px;
+}
+
 .fishy{
     position: absolute;
     background-color: white;
@@ -914,7 +965,7 @@ article#Digital-representation{
     border-right: 2px solid black;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
-    transform: translate(450px, 160px);
+    transform: translate(450px, -60px);
     z-index: 7;
 
 }
@@ -946,7 +997,7 @@ article#Library{
     min-height: 100vh;
     height: 1200px;
     text-align: center;
-    background-color:red;
+    
 
 }
 
@@ -984,7 +1035,7 @@ article#Library{
     position: absolute;
     background-color: white;
     width: 502px;
-    height: 602px;
+    height: 712px;
     border-right: 2px solid black;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
@@ -1010,11 +1061,19 @@ article#Library{
     transform: translate(200px,3px);
 }
 
+#Book-Image{
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+    background-color: #333;
+    
+}
+
 .Poster{
     position: absolute;
     background-color: white;
     width: 252px;
-    height: 302px;
+    height: 333px;
     border-right: 2px solid black;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
@@ -1040,6 +1099,11 @@ article#Library{
     transform: translate(75px,3px);
 }
 
+#Poster-Image{
+    width: 100%;
+    height: auto;
+}
+
 
 .Paper{
     position: absolute;
@@ -1050,7 +1114,7 @@ article#Library{
     border-left: 2px solid black;
     border-bottom: 2px solid black;
     transform: translate(500px, 650px);
-    z-index: 5;
+    z-index: 9;
 
 }
 
@@ -1071,12 +1135,17 @@ article#Library{
 .Paper-buttons{
     transform: translate(50px,3px);
 }
+#Paper-Image{
+    width: 98%;
+    background-color: #333;
+    height: auto;
+}
 
 .Notebook{
     position: absolute;
     background-color: white;
     width: 302px;
-    height: 302px;
+    height: 250px;
     border-right: 2px solid black;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
@@ -1102,6 +1171,12 @@ article#Library{
     transform: translate(100px,3px);
 }
 
+#Notebook-Image{
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+}
+
 article#Elevator{
     position: relative;
     box-sizing: border-box;
@@ -1109,9 +1184,9 @@ article#Elevator{
     padding-top: 150px;
     min-width: 100vw;
     min-height: 100vh;
-    height: 1800px;
+    height: 1570px;
     text-align: center;
-    background-color: blue;
+ 
 
 }
 
@@ -1119,7 +1194,7 @@ article#Elevator{
     position: absolute;
     background-color: white;
     width: 602px;
-    height: 402px;
+    height: 802px;
     border-right: 2px solid black;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
@@ -1145,11 +1220,16 @@ article#Elevator{
     transform: translate(250px,3px);
 }
 
+#middleElevator-Image{
+    width: 100%;
+    height: auto;
+}
+
 .downElevator{
     position: absolute;
     background-color: white;
     width: 552px;
-    height: 302px;
+    height: 369px;
     border-right: 2px solid black;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
@@ -1175,6 +1255,11 @@ article#Elevator{
     transform: translate(225px,3px);
 }
 
+#downElevator-Image{
+    width: 100%;
+    height: auto;
+   
+}
 .upElevator{
     position: absolute;
     background-color: white;
@@ -1204,6 +1289,10 @@ article#Elevator{
 
 .upElevator-buttons{
     transform: translate(200px,3px);
+}
+
+#upElevator-Image{
+    padding-top: 20px;
 }
 
 .Pocky{
@@ -1240,7 +1329,7 @@ article#Elevator{
     position: absolute;
     background-color: white;
     width: 652px;
-    height: 500px;
+    height: 365px;
     border-right: 2px solid black;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
@@ -1264,6 +1353,11 @@ article#Elevator{
 
 .Mansion-buttons{
     transform: translate(275px,3px);
+}
+
+#Mansion-Image{
+    width: 100%;
+    height: auto;
 }
 
 .elevator-Reference{
@@ -1314,7 +1408,7 @@ article#Ideas{
     position: absolute;
     background-color: white;
     width: 602px;
-    height: 752px;
+    height: 600px;
     border-right: 2px solid black;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
@@ -1339,6 +1433,10 @@ article#Ideas{
 
 .Typography-image-buttons{
     transform: translate(250px,3px);
+}
+#Typography-image-Image{
+    width: 100%;
+    height: auto;
 }
 
 .cun{
@@ -1375,7 +1473,7 @@ article#Ideas{
     position: absolute;
     background-color: white;
     width: 502px;
-    height: 402px;
+    height: 500px;
     border-right: 2px solid black;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
@@ -1400,6 +1498,11 @@ article#Ideas{
 
 .collaterals-buttons{
     transform: translate(200px,3px);
+}
+
+#collaterals-Image{
+    width: 100%;
+    height: auto;
 }
 
 .cun-col{
