@@ -513,7 +513,7 @@ header.personHeader {
 
 #person-text{
     text-align: justify;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-left: 115px;
     padding-right: 25px;
 }
@@ -1309,7 +1309,7 @@ article#Elevator{
     position: absolute;
     background-color: white;
     width: 452px;
-    height: 300px;
+    height: 320px;
     border-right: 2px solid black;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
@@ -1570,6 +1570,55 @@ figure>svg{
 
 .interest-star{
     transform: translate(-360px,-30px);
+}
+
+#skillSet-text{
+    text-align: justify;
+    padding:45px 25px 25px 25px;
+ 
+   
+}
+
+#fishy-text{
+    text-align: justify;
+    padding:5px 25px 25px 25px;
+ 
+   
+}
+
+#fishy-h4{
+    text-align: justify;
+    padding:45px 25px 5px 25px;
+ 
+   
+}
+
+#Compaign-text{
+    text-align: justify;
+    padding:5px 25px 25px 25px;
+ 
+   
+}
+
+#Compaign-h4{
+    text-align: justify;
+    padding:45px 25px 5px 25px;
+ 
+   
+}
+
+#Pocky-text{
+    text-align: justify;
+    padding:0px 25px 25px 25px;
+ 
+   
+}
+
+#Pocky-h4{
+    text-align: justify;
+    padding:45px 25px 3px 25px;
+ 
+   
 }
 
 
