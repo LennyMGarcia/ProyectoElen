@@ -164,6 +164,8 @@ img{
 }
 
 
+
+
 .content {
 
     box-sizing: border-box;
@@ -281,6 +283,8 @@ div.glassmorphism {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 18px;
     color: black;
+    width: 200px;
+    height: 50px;
     
     
 }
@@ -319,6 +323,7 @@ div.glassmorphism {
 button.minimize {
     color: black;
     background: white;
+    
 }
 
 button.minimize:hover {
@@ -435,11 +440,14 @@ header.languagesHeader {
     transform: translate(20px, -25px);
     z-index: 3;
     color: black;
+    width: 50px;
+    height: 50px;
 
 }
 
 .languages-buttons {
     transform: translate(155px, 3px);
+   
 }
 
 #languagesForm {
@@ -461,6 +469,18 @@ header.languagesHeader {
     border-left: 2px solid black;
     border-bottom: 2px solid black;
     z-index: 2;
+
+}
+
+#person-Paragraph{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    display: flex;
+    transform: translate(20px, -25px);
+    z-index: 3;
+    color: black;
+    width: 300px;
+    height: 50px;
 
 }
 
@@ -531,6 +551,8 @@ header.profileHeader {
     display: flex;
     transform: translate(20px, -25px);
     color: black;
+    width: 50px;
+    height: 50px;
     
     
 }
@@ -595,6 +617,8 @@ div.interestfolder:before {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 18px;
     color: black;
+    width: 200px;
+    height: 50px;
 }
 
 div.interestGlass {
@@ -669,6 +693,8 @@ div.interestGlass {
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
+    width: 50px;
+    height: 50px;
 }
 
 .experience {
@@ -699,6 +725,8 @@ div.interestGlass {
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
+    width: 50px;
+    height: 50px;
 }
 
 #experiences-footer{
@@ -716,7 +744,7 @@ div.interestGlass {
     border-right: 2px solid black;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
-    transform: translate(100px, 60px);
+    transform: translate(25px, 60px);
     z-index: 2;
 
 }
@@ -738,6 +766,8 @@ div.interestGlass {
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
+    width: 50px;
+    height: 50px;
 }
 
 .hiredRebecca {
@@ -766,6 +796,8 @@ div.interestGlass {
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
+    width: 50px;
+    height: 50px;
 }
 .YesOrNo-buttons{
     width: 250px;
@@ -778,8 +810,18 @@ div.interestGlass {
     transform: translate(-15px,0);
 }
 
+.Yes-button:before{
+    
+    content: "Yes";
+}
+
 .Yes-button:hover{
     background-color: rgb(0, 89, 255);
+}
+
+.Yes-button:hover:before{
+    
+    content: "No";
 }
 
 .No-button
@@ -851,6 +893,8 @@ article#Digital-representation{
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
+    width: 150px;
+    height: 50px;
 }
 
 .digital-illustration-buttons{
@@ -888,6 +932,8 @@ article#Digital-representation{
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
+    width: 75px;
+    height: 50px;
 }
 
 .Digital-fish-buttons{
@@ -919,6 +965,8 @@ article#Digital-representation{
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
+    width: 75px;
+    height: 50px;
 }
 
 .Digital-Computer-buttons{
@@ -954,6 +1002,8 @@ article#Digital-representation{
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
+    width: 150px;
+    height: 50px;
 }
 
 .Digital-World-buttons{
@@ -992,6 +1042,8 @@ article#Digital-representation{
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
+    width: 50px;
+    height: 50px;
 }
 
 .fishy-buttons{
@@ -1035,6 +1087,8 @@ article#Library{
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
+    width: 50px;
+    height: 50px;
 }
 
 .Compaign-buttons{
@@ -1065,6 +1119,8 @@ article#Library{
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
+    width: 50px;
+    height: 50px;
 }
 
 .Book-buttons{
@@ -1103,6 +1159,8 @@ article#Library{
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
+    width: 50px;
+    height: 50px;
 }
 
 .Poster-buttons{
@@ -1140,6 +1198,8 @@ article#Library{
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
+    width: 50px;
+    height: 50px;
 }
 
 .Paper-buttons{
@@ -1175,6 +1235,8 @@ article#Library{
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
+    width: 50px;
+    height: 50px;
 }
 
 .Notebook-buttons{
@@ -1224,6 +1286,8 @@ article#Elevator{
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
+    width: 50px;
+    height: 50px;
 }
 
 .middleElevator-buttons{
@@ -1259,6 +1323,8 @@ article#Elevator{
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
+    width: 50px;
+    height: 50px;
 }
 
 .downElevator-buttons{
@@ -1295,6 +1361,8 @@ article#Elevator{
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
+    width: 50px;
+    height: 50px;
 }
 
 .upElevator-buttons{
@@ -1329,6 +1397,8 @@ article#Elevator{
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
+    width: 50px;
+    height: 50px;
 }
 
 .Pocky-buttons{
@@ -1359,6 +1429,8 @@ article#Elevator{
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
+    width: 50px;
+    height: 50px;
 }
 
 .Mansion-buttons{
@@ -1374,7 +1446,7 @@ article#Elevator{
     position: absolute;
     background-color: white;
     width: 452px;
-    height: 300px;
+    height: 320px;
     border-right: 2px solid black;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
@@ -1394,6 +1466,8 @@ article#Elevator{
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
+    width: 200px;
+    height: 50px;
 }
 
 .elevator-Reference-buttons{
@@ -1439,6 +1513,8 @@ article#Ideas{
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
+    width: 200px;
+    height: 50px;
 }
 
 .Typography-image-buttons{
@@ -1473,6 +1549,8 @@ article#Ideas{
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
+    width: 100px;
+    height: 50px;
 }
 
 .cun-buttons{
@@ -1504,6 +1582,8 @@ article#Ideas{
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
+    width: 50px;
+    height: 50px;
 }
 
 .collaterals-buttons{
@@ -1539,6 +1619,8 @@ article#Ideas{
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
+    width: 150px;
+    height: 50px;
 }
 
 .cun-col-buttons{
@@ -1620,6 +1702,51 @@ figure>svg{
  
    
 }
+
+#elevator-Reference-text{
+    text-align: justify;
+    padding:0px 25px 25px 25px;
+ 
+   
+}
+
+#elevator-Reference-h4{
+    text-align: justify;
+    padding:45px 25px 3px 25px;
+ 
+   
+}
+
+#cun-text{
+    text-align: justify;
+    padding:0px 25px 25px 25px;
+ 
+   
+}
+
+#cun-h4{
+    text-align: justify;
+    padding:45px 25px 3px 25px;
+ 
+   
+}
+
+#cun-col-text{
+    text-align: justify;
+    padding:0px 25px 25px 25px;
+ 
+   
+}
+
+#cun-col-h4{
+    text-align: justify;
+    padding:45px 25px 3px 25px;
+ 
+   
+}
+
+
+
 
 
 
