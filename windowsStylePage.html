@@ -17,22 +17,63 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
 </head>
 
 <body>
-    <header id="Header">
+    
+    <nav class="navbar navbar-expand-lg " id="Elen-navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="css\img\logoPrincipal.png" id="logoPrincipal"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#portafolio">Portafolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#interest">Intereses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#fishy-Paragraph">Alimentos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Compaign-Paragraph">Libros y peliculas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Pocky-Paragraph">objetos</a>
+              </li>
 
-    </header>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Mas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#elevator-Reference-Paragraph">Perrisima </a></li>
+                  <li><a class="dropdown-item" href="#cun-Paragraph">Tu refugio</a></li>
+                  <li><a class="dropdown-item" href="#cun-col-Paragraph">Gracias</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
 
     <section class="content">
-        <div class="portafolio">
+        <div id="portafolio" >
 
             <header class="portafolioHeaderElements">
 
                 <input id="portafolioInput" type="text" placeholder="https://www.hola.com">
                 <button type="button" class="minimize">—</button>
-                <button type="button" class="maximize" disabled="disabled">[]</button>
-                <button type="button" class="close">X</button>
+                <button type="button" class="maximize" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                <button type="button" class="close"><i class="bi bi-x-lg"></i></button>
                 <i class="bi bi-star"></i>
 
             </header>
@@ -85,9 +126,9 @@
                         <header class="windowsOptions profileHeader">
 
                             <button class="button-group minimize profile-buttons">—</button>
-                            <button class="button-group maximize profile-buttons" disabled="disabled">[]</button>
-                            <button class="button-group close profile-buttons">X</button>
-                            <p id="profile-paragraph">Profile.jpg</p>
+                            <button class="button-group maximize profile-buttons" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                            <button class="button-group close profile-buttons"><i class="bi bi-x-lg"></i></button>
+                            <p id="profile-paragraph">Pefil.jpg</p>
                         </header>
 
                         <figure>
@@ -101,38 +142,39 @@
                         <header class="windowsOptions languagesHeader">
                             
                             <button class="button-group minimize languages-buttons">—</button>
-                            <button class="button-group maximize languages-buttons" disabled="disabled">[]</button>
-                            <button class="button-group close languages-buttons">X</button>
+                            <button class="button-group maximize languages-buttons" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                            <button class="button-group close languages-buttons"><i class="bi bi-x-lg"></i></button>
                             
-                            <p id="languages-paragraph">languages</p>
+                            <p id="languages-paragraph">Gustos</p>
 
                         </header>
 
                         <form action="/action_page.php" id="languagesForm">
-                            <label for="Malay">Malay:</label>
+                            <label for="Malay">Series:</label>
                             <select name="Malay" id="Malay">
-                                <option value="volvo">Volvo</option>
-                                <option value="saab">Saab</option>
-                                <option value="opel">Opel</option>
-                                <option value="audi">Audi</option>
+                                <option value="gavilanes">Pasión de gavilanes</option>
+                                <option value="Manifiesto">Manifiesto</option>
+                                <option value="Winx">Destino: La saga de Winx</option>
+                                
                             </select>
                             <br><br>
 
-                            <label for="English">English:</label>
+                            <label for="English">Libros:</label>
                             <select name="English" id="English">
-                                <option value="volvo">Volvo</option>
-                                <option value="saab">Saab</option>
-                                <option value="opel">Opel</option>
-                                <option value="audi">Audi</option>
+                                <option value="AguaChocolate">Como agua para chocolate</option>
+                                <option value="OnceMinutos">Once minutos</option>
+                                <option value="Ethan">Los miedos de Ethan</option>
+                                <option value="Divergent">Divergent</option>
+                                <option value="Tunel">El tunel</option>
                             </select>
                             <br><br>
 
-                            <label for="chinese">chinese:</label>
+                            <label for="chinese">Canciones:</label>
                             <select name="chinese" id="chinese">
-                                <option value="volvo">Volvo</option>
-                                <option value="saab">Saab</option>
-                                <option value="opel">Opel</option>
-                                <option value="audi">Audi</option>
+                                <option value="volvo">No tenemos nada</option>
+                                <option value="saab">Tu refugio</option>
+                                <option value="opel">Un ratito más</option>
+                                <option value="audi">Mueve la cadera</option>
                             </select>
                             <br><br>
 
@@ -142,8 +184,8 @@
                     <div class="person">
                         <header class="windowsOptions personHeader">
                             <button class="button-group minimize person-buttons">—</button>
-                            <button class="button-group maximize person-buttons" disabled="disabled">[]</button>
-                            <button class="button-group close person-buttons">X</button>
+                            <button class="button-group maximize person-buttons" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                            <button class="button-group close person-buttons"><i class="bi bi-x-lg"></i></button>
                             <p id="person-Paragraph">Motivo y agradecimientos.txt</p>
                         </header>
 
@@ -178,19 +220,19 @@
 
     <section class="second-content">
         <article id="abilities">
-            <div class="interest">
+            <div id="interest">
 
                 <header class="interestHeaderElements">
                     <input id="interestInput" type="text" placeholder="https://www.hola.com">
                     <button type="button" class="minimize">—</button>
-                    <button type="button" class="maximize" disabled="disabled">[]</button>
-                    <button type="button" class="close">X</button>
+                    <button type="button" class="maximize" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                    <button type="button" class="close"><i class="bi bi-x-lg"></i></button>
                     <i class="bi bi-star interest-star"></i>
                 </header>
 
                 <div class="TitleBlock">
                     <div class="windowsTitleBlock  interestTitleBlock">
-                        <p id="interest-Paragraph">interest de cloud</p>
+                        <p id="interest-Paragraph">intereses de Elen</p>
                     </div>
                     <div class="windowsTitleBlock  backTitleBlock"></div>
                     <div class="windowsTitleBlock  secondBackTitleBlock"></div>
@@ -362,8 +404,8 @@
                     <div class="skillSet">
                         <header class="windowsOptions skillSet-HeaderElements">
                             <button type="button" class="minimize skillSet-buttons">—</button>
-                            <button type="button" class="maximize skillSet-buttons" disabled="disabled">[]</button>
-                            <button type="button" class="close skillSet-buttons">X</button>
+                            <button type="button" class="maximize skillSet-buttons" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                            <button type="button" class="close skillSet-buttons"><i class="bi bi-x-lg"></i></button>
                             <p id="skillSet-Paragraph">Felicitaciones </p>
                         </header>
 
@@ -380,8 +422,8 @@
                     <div class="experience">
                         <header class="windowsOptions experience-HeaderElements">
                             <button type="button" class="minimize experience-buttons">—</button>
-                            <button type="button" class="maximize experience-buttons" disabled="disabled">[]</button>
-                            <button type="button" class="close experience-buttons">X</button>
+                            <button type="button" class="maximize experience-buttons" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                            <button type="button" class="close experience-buttons"><i class="bi bi-x-lg"></i></button>
                             <p id="experience-Paragraph">experience.docx</p>
                         </header>
 
@@ -391,8 +433,8 @@
                     <div class="education">
                         <header class="windowsOptions education-HeaderElements">
                             <button type="button" class="minimize education-buttons">—</button>
-                            <button type="button" class="maximize education-buttons" disabled="disabled">[]</button>
-                            <button type="button" class="close education-buttons">X</button>
+                            <button type="button" class="maximize education-buttons" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                            <button type="button" class="close education-buttons"><i class="bi bi-x-lg"></i></button>
                             <p id="education-Paragraph">Education.docx</p>
                         </header>
 
@@ -401,8 +443,8 @@
                     <div class="hiredRebecca">
                         <header class="windowsOptions hiredRebecca-HeaderElements">
                             <button type="button" class="minimize hiredRebecca-buttons">—</button>
-                            <button type="button" class="maximize hiredRebecca-buttons" disabled="disabled">[]</button>
-                            <button type="button" class="close hiredRebecca-buttons">X</button>
+                            <button type="button" class="maximize hiredRebecca-buttons" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                            <button type="button" class="close hiredRebecca-buttons"><i class="bi bi-x-lg"></i></button>
                             <p id="hiredRebecca-Paragraph">¿Dinero?</p>
                         </header>
 
@@ -430,12 +472,12 @@
 
         <article id="Digital-representation">
 
-            <div class="fishy">
+            <div id="fishy">
                 <header class="windowsOptions fishy-Header">
                     <button type="button" class="minimize fishy-buttons">—</button>
-                    <button type="button" class="maximize fishy-buttons" disabled="disabled">[]</button>
-                    <button type="button" class="close fishy-buttons">X</button>
-                    <p id="fishy-Paragraph">Fishy </p>
+                    <button type="button" class="maximize fishy-buttons" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                    <button type="button" class="close fishy-buttons"><i class="bi bi-x-lg"></i></button>
+                    <p id="fishy-Paragraph">Comentario</p>
                 </header>
 
                 <h4 id="fishy-h4">Alimentos que te gustan.</h4>
@@ -456,9 +498,9 @@
                 <header class="windowsOptions digital-Illustration-Header">
 
                     <button class="button-group minimize digital-illustration-buttons">—</button>
-                    <button class="button-group maximize digital-illustration-buttons" disabled="disabled">[]</button>
-                    <button class="button-group close digital-illustration-buttons">X</button>
-                    <p id="digital-illustrationParagraph">digital illustration</p>
+                    <button class="button-group maximize digital-illustration-buttons" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                    <button class="button-group close digital-illustration-buttons"><i class="bi bi-x-lg"></i></button>
+                    <p id="digital-illustrationParagraph">Tamarindo</p>
                 </header>
 
                 <figure>
@@ -471,9 +513,9 @@
                 <header class="windowsOptions Digital-fish-Header">
 
                     <button class="button-group minimize Digital-fish-buttons">—</button>
-                    <button class="button-group maximize Digital-fish-buttons" disabled="disabled">[]</button>
-                    <button class="button-group close Digital-fish-buttons">X</button>
-                    <p id="Digital-fish-Paragraph">Digital fish</p>
+                    <button class="button-group maximize Digital-fish-buttons" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                    <button class="button-group close Digital-fish-buttons"><i class="bi bi-x-lg"></i></button>
+                    <p id="Digital-fish-Paragraph"><i class="bi bi-brightness-high"></i></p>
                 </header>
 
                 <figure>
@@ -488,9 +530,9 @@
                 <header class="windowsOptions Digital-Computer-Header">
 
                     <button class="button-group minimize Digital-Computer-buttons">—</button>
-                    <button class="button-group maximize Digital-Computer-buttons" disabled="disabled">[]</button>
-                    <button class="button-group close Digital-Computer-buttons">X</button>
-                    <p id="Digital-Computer-Paragraph">Digital computer</p>
+                    <button class="button-group maximize Digital-Computer-buttons" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                    <button class="button-group close Digital-Computer-buttons"><i class="bi bi-x-lg"></i></button>
+                    <p id="Digital-Computer-Paragraph"><i class="bi bi-brightness-high"></i></p>
                 </header>
 
                 <figure>
@@ -503,9 +545,9 @@
                 <header class="windowsOptions Digital-World-Header">
 
                     <button class="button-group minimize Digital-World-buttons">—</button>
-                    <button class="button-group maximize Digital-World-buttons" disabled="disabled">[]</button>
-                    <button class="button-group close Digital-World-buttons">X</button>
-                    <p id="Digital-World-Paragraph">Digital world</p>
+                    <button class="button-group maximize Digital-World-buttons" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                    <button class="button-group close Digital-World-buttons"><i class="bi bi-x-lg"></i></button>
+                    <p id="Digital-World-Paragraph">Platanos en dulce</p>
                 </header>
 
                 <figure>
@@ -523,9 +565,9 @@
             <div class="Compaign">
                 <header class="windowsOptions Compaign-Header">
                     <button type="button" class="minimize Compaign-buttons">—</button>
-                    <button type="button" class="maximize Compaign-buttons" disabled="disabled">[]</button>
-                    <button type="button" class="close Compaign-buttons">X</button>
-                    <p id="Compaign-Paragraph">Compaign </p>
+                    <button type="button" class="maximize Compaign-buttons" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                    <button type="button" class="close Compaign-buttons"><i class="bi bi-x-lg"></i></button>
+                    <p id="Compaign-Paragraph">Comentario</p>
                 </header>
 
                 <h4 id="Compaign-h4">Libros y peliculas que te gustan.</h4>
@@ -546,9 +588,9 @@
                 <header class="windowsOptions Book-Header">
 
                     <button class="button-group minimize Book-buttons">—</button>
-                    <button class="button-group maximize Book-buttons" disabled="disabled">[]</button>
-                    <button class="button-group close Book-buttons">X</button>
-                    <p id="Book-Paragraph">Book</p>
+                    <button class="button-group maximize Book-buttons" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                    <button class="button-group close Book-buttons"><i class="bi bi-x-lg"></i></button>
+                    <p id="Book-Paragraph">El túnel</p>
                 </header>
 
                 <figure>
@@ -561,9 +603,9 @@
                 <header class="windowsOptions Poster-Header">
 
                     <button class="button-group minimize Poster-buttons">—</button>
-                    <button class="button-group maximize Poster-buttons" disabled="disabled">[]</button>
-                    <button class="button-group close Poster-buttons">X</button>
-                    <p id="Poster-Paragraph">Poster</p>
+                    <button class="button-group maximize Poster-buttons" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                    <button class="button-group close Poster-buttons"><i class="bi bi-x-lg"></i></button>
+                    <p id="Poster-Paragraph">B&B</p>
                 </header>
 
                 <figure>
@@ -576,9 +618,9 @@
                 <header class="windowsOptions Paper-Header">
 
                     <button class="button-group minimize Paper-buttons">—</button>
-                    <button class="button-group maximize Paper-buttons" disabled="disabled">[]</button>
-                    <button class="button-group close Paper-buttons">X</button>
-                    <p id="Paper-Paragraph">Paper</p>
+                    <button class="button-group maximize Paper-buttons" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                    <button class="button-group close Paper-buttons"><i class="bi bi-x-lg"></i></button>
+                    <p id="Paper-Paragraph">Ethan</p>
                 </header>
 
                 <figure>
@@ -591,9 +633,9 @@
                 <header class="windowsOptions Notebook-Header">
 
                     <button class="button-group minimize Notebook-buttons">—</button>
-                    <button class="button-group maximize Notebook-buttons" disabled="disabled">[]</button>
-                    <button class="button-group close Notebook-buttons">X</button>
-                    <p id="Notebook-Paragraph">Notebook</p>
+                    <button class="button-group maximize Notebook-buttons" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                    <button class="button-group close Notebook-buttons"><i class="bi bi-x-lg"></i></button>
+                    <p id="Notebook-Paragraph">Divergente</p>
                 </header>
 
                 <figure>
@@ -608,9 +650,9 @@
             <div class="Pocky">
                 <header class="windowsOptions Pocky-Header">
                     <button type="button" class="minimize Pocky-buttons">—</button>
-                    <button type="button" class="maximize Pocky-buttons" disabled="disabled">[]</button>
-                    <button type="button" class="close Pocky-buttons">X</button>
-                    <p id="Pocky-Paragraph">Pocky </p>
+                    <button type="button" class="maximize Pocky-buttons" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                    <button type="button" class="close Pocky-buttons"><i class="bi bi-x-lg"></i></button>
+                    <p id="Pocky-Paragraph">Comentario </p>
                 </header>
 
                 <h5 id="Pocky-h4">Unidos por el corazón.</h5>
@@ -626,9 +668,9 @@
                 <header class="windowsOptions middleElevator-Header">
 
                     <button class="button-group minimize middleElevator-buttons">—</button>
-                    <button class="button-group maximize middleElevator-buttons" disabled="disabled">[]</button>
-                    <button class="button-group close middleElevator-buttons">X</button>
-                    <p id="middleElevator-Paragraph">middleElevator</p>
+                    <button class="button-group maximize middleElevator-buttons" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                    <button class="button-group close middleElevator-buttons"><i class="bi bi-x-lg"></i></button>
+                    <p id="middleElevator-Paragraph">Camisa de cuadros</p>
                 </header>
 
                 <figure>
@@ -656,9 +698,9 @@
                 <header class="windowsOptions downElevator-Header">
 
                     <button class="button-group minimize downElevator-buttons">—</button>
-                    <button class="button-group maximize downElevator-buttons" disabled="disabled">[]</button>
-                    <button class="button-group close downElevator-buttons">X</button>
-                    <p id="downElevator-Paragraph">downElevator</p>
+                    <button class="button-group maximize downElevator-buttons" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                    <button class="button-group close downElevator-buttons"><i class="bi bi-x-lg"></i></button>
+                    <p id="downElevator-Paragraph">Hermosa carta</p>
                 </header>
 
                 <figure>
@@ -671,9 +713,9 @@
                 <header class="windowsOptions upElevator-Header">
 
                     <button class="button-group minimize upElevator-buttons">—</button>
-                    <button class="button-group maximize upElevator-buttons" disabled="disabled">[]</button>
-                    <button class="button-group close upElevator-buttons">X</button>
-                    <p id="upElevator-Paragraph">upElevator</p>
+                    <button class="button-group maximize upElevator-buttons" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                    <button class="button-group close upElevator-buttons"><i class="bi bi-x-lg"></i></button>
+                    <p id="upElevator-Paragraph">Piercing</p>
                 </header>
 
                 <figure>
@@ -685,9 +727,9 @@
             <div class="elevator-Reference">
                 <header class="windowsOptions elevator-Reference-Header">
                     <button type="button" class="minimize elevator-Reference-buttons">—</button>
-                    <button type="button" class="maximize elevator-Reference-buttons" disabled="disabled">[]</button>
-                    <button type="button" class="close elevator-Reference-buttons">X</button>
-                    <p id="elevator-Reference-Paragraph">elevator-Reference </p>
+                    <button type="button" class="maximize elevator-Reference-buttons" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                    <button type="button" class="close elevator-Reference-buttons"><i class="bi bi-x-lg"></i></button>
+                    <p id="elevator-Reference-Paragraph">Perrisima ways!!!!!</p>
                 </header>
 
                 <h4 id="elevator-Reference-h4">No soy perra, soy perrisima.</h4>
@@ -705,9 +747,9 @@
                 <header class="windowsOptions Mansion-Header">
 
                     <button class="button-group minimize Mansion-buttons">—</button>
-                    <button class="button-group maximize Mansion-buttons" disabled="disabled">[]</button>
-                    <button class="button-group close Mansion-buttons">X</button>
-                    <p id="Mansion-Paragraph">Mansion</p>
+                    <button class="button-group maximize Mansion-buttons" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                    <button class="button-group close Mansion-buttons"><i class="bi bi-x-lg"></i></button>
+                    <p id="Mansion-Paragraph">Perro con mirada profunda</p>
                 </header>
 
                 <figure>
@@ -727,9 +769,9 @@
             <div class="cun">
                 <header class="windowsOptions cun-Header">
                     <button type="button" class="minimize cun-buttons">—</button>
-                    <button type="button" class="maximize cun-buttons" disabled="disabled">[]</button>
-                    <button type="button" class="close cun-buttons">X</button>
-                    <p id="cun-Paragraph">cun </p>
+                    <button type="button" class="maximize cun-buttons" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                    <button type="button" class="close cun-buttons"><i class="bi bi-x-lg"></i></button>
+                    <p id="cun-Paragraph">Comentario</p>
                 </header>
 
                 <h4 id="cun-h4">Tu refugio.</h4>
@@ -750,9 +792,9 @@
                 <header class="windowsOptions Typography-image-Header">
 
                     <button class="button-group minimize Typography-image-buttons">—</button>
-                    <button class="button-group maximize Typography-image-buttons" disabled="disabled">[]</button>
-                    <button class="button-group close Typography-image-buttons">X</button>
-                    <p id="Typography-image-Paragraph">Typography-image</p>
+                    <button class="button-group maximize Typography-image-buttons" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                    <button class="button-group close Typography-image-buttons"><i class="bi bi-x-lg"></i></button>
+                    <p id="Typography-image-Paragraph">Pablo Alboran - Tu refugio</p>
                 </header>
 
                 <figure>
@@ -765,9 +807,9 @@
             <div class="cun-col">
                 <header class="windowsOptions cun-col-Header">
                     <button type="button" class="minimize cun-col-buttons">—</button>
-                    <button type="button" class="maximize cun-col-buttons" disabled="disabled">[]</button>
-                    <button type="button" class="close cun-col-buttons">X</button>
-                    <p id="cun-col-Paragraph">cun-col</p>
+                    <button type="button" class="maximize cun-col-buttons" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                    <button type="button" class="close cun-col-buttons"><i class="bi bi-x-lg"></i></button>
+                    <p id="cun-col-Paragraph">Gracias</p>
                 </header>
 
                 <h4 id="cun-col-h4">Espero que tengas un hermoso y gran día.</h4>
@@ -785,9 +827,9 @@
                 <header class="windowsOptions collaterals-Header">
 
                     <button class="button-group minimize collaterals-buttons">—</button>
-                    <button class="button-group maximize collaterals-buttons" disabled="disabled">[]</button>
-                    <button class="button-group close collaterals-buttons">X</button>
-                    <p id="collaterals-Paragraph">collaterals</p>
+                    <button class="button-group maximize collaterals-buttons" disabled="disabled"><i class="bi bi-window-fullscreen"></i></button>
+                    <button class="button-group close collaterals-buttons"><i class="bi bi-x-lg"></i></button>
+                    <p id="collaterals-Paragraph">Un ratito mááás</p>
                 </header>
 
                 <figure>
@@ -802,7 +844,7 @@
 
 
     <footer id="Footer">
-
+        ©2022 Lenny M. Garcia.  Todas las marcas registradas  son propiedad de sus respectivos dueños.
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"

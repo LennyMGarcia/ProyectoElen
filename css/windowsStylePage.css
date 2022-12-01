@@ -153,8 +153,10 @@ body {
     min-width: 1140px;
 }
 
-body {
-    background-image: url("https://i.pinimg.com/originals/32/26/52/322652e458d6282c7a3f398f5c9cecff.jpg");
+body{
+   background-image: url("../css/img/fondo.jpg"); 
+   width: 1000px;
+   height: auto; 
 
 }
 img{
@@ -163,7 +165,23 @@ img{
     height: auto;
 }
 
+#logoPrincipal{
+    width: 100px;
+    height: auto;
+}
 
+nav#Elen-navbar {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: white;
+    height: 100px;
+    min-width: 100vw;
+    width: 150vw;
+    position: fixed;
+    z-index: 200;
+  
+    
+}
 
 
 .content {
@@ -178,26 +196,20 @@ img{
   
 
 }
-header#Header{
-    box-sizing: border-box;
-    margin: 0;
-    background-color: #333;
-    height: 50px;
-    
-    min-width: 100vw;
-    width: 150vw;
-    position: fixed;
-    z-index: 200;
-    
-}
+
+
+
 
 footer#Footer{
     box-sizing: border-box;
     margin: 0;
     background-color: #333;
-    height: 300px;
+    height: 100px;
     min-width: 100vw;
     width: 150vw;
+    color: white;
+    padding: 50px;
+
     
     
 }
@@ -210,7 +222,7 @@ footer#Footer{
     min-width: 100vw;
     min-height: 100vh;
     text-align: center;
-    height: 1100vh;
+    height: 1000vh;
     padding-top: 250px;
 
 }
@@ -314,7 +326,7 @@ div.glassmorphism {
     position: absolute;
     width: 250px;
     height: 250px;
-    transform: translate(660px, -60px);
+    transform: translate(655px, -60px);
     z-index: 4;
     float: left;
 
@@ -446,7 +458,7 @@ header.languagesHeader {
 }
 
 .languages-buttons {
-    transform: translate(155px, 3px);
+    transform: translate(149px, 3px);
    
 }
 
@@ -491,7 +503,7 @@ header.personHeader {
 }
 
 .person-buttons {
-    transform: translate(230px, 3px);
+    transform: translate(219px, 3px);
 
 }
 
@@ -558,12 +570,12 @@ header.profileHeader {
 }
 
 .profile-buttons {
-    transform: translate(100px, 3px);
+    transform: translate(94px, 3px);
 
 
 }
 
-.interest {
+#interest {
     width: 810px;
     height: 800px;
     left: 30px;
@@ -632,7 +644,7 @@ div.interestGlass {
     position: absolute;
     width: 500px;
     height: 250px;
-    transform: translate(635px, -60px);
+    transform: translate(629px, -60px);
     z-index: 4;
     float: left;
 }
@@ -682,7 +694,7 @@ div.interestGlass {
 }
 
 .education-buttons{
-    transform: translate(203px,3px);
+    transform: translate(197px,3px);
 
 }
 
@@ -715,7 +727,7 @@ div.interestGlass {
     height: 40px;
 }
 .experience-buttons{
-    transform: translate(208px,3px);
+    transform: translate(202px,3px);
 
 }
 #experience-Paragraph{
@@ -755,7 +767,7 @@ div.interestGlass {
 }
 
 .skillSet-buttons{
-    transform: translate(198px,3px);
+    transform: translate(192px,3px);
 
 }
 
@@ -834,7 +846,7 @@ div.interestGlass {
 }
 
 .hiredRebecca-buttons{
-    transform: translate(73px,3px);
+    transform: translate(67px,3px);
 }
 
 .sobriety {
@@ -898,7 +910,7 @@ article#Digital-representation{
 }
 
 .digital-illustration-buttons{
-    transform: translate(148px,3px);
+    transform: translate(142px,3px);
 }
 
 #digital-illustration-image{
@@ -937,7 +949,7 @@ article#Digital-representation{
 }
 
 .Digital-fish-buttons{
-    transform: translate(50px,3px);
+    transform: translate(44px,3px);
 }
 
 
@@ -970,7 +982,7 @@ article#Digital-representation{
 }
 
 .Digital-Computer-buttons{
-    transform: translate(50px,3px);
+    transform: translate(44px,3px);
 }
 
 #Digital-Computer-Image{
@@ -1002,12 +1014,12 @@ article#Digital-representation{
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
-    width: 150px;
+    width: 200px;
     height: 50px;
 }
 
 .Digital-World-buttons{
-    transform: translate(200px,3px);
+    transform: translate(194px,3px);
 }
 
 #Digital-World-Image{
@@ -1017,7 +1029,7 @@ article#Digital-representation{
     width: 450px;
 }
 
-.fishy{
+#fishy{
     position: absolute;
     background-color: white;
     width: 502px;
@@ -1047,7 +1059,7 @@ article#Digital-representation{
 }
 
 .fishy-buttons{
-    transform: translate(200px,3px);
+    transform: translate(194px,3px);
 }
 
 article#Library{
@@ -1092,7 +1104,7 @@ article#Library{
 }
 
 .Compaign-buttons{
-    transform: translate(175px,3px);
+    transform: translate(169px,3px);
 }
 
 .Book{
@@ -1119,12 +1131,12 @@ article#Library{
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
-    width: 50px;
+    width: 150px;
     height: 50px;
 }
 
 .Book-buttons{
-    transform: translate(200px,3px);
+    transform: translate(194px,3px);
 }
 
 #Book-Image{
@@ -1164,7 +1176,7 @@ article#Library{
 }
 
 .Poster-buttons{
-    transform: translate(75px,3px);
+    transform: translate(69px,3px);
 }
 
 #Poster-Image{
@@ -1203,7 +1215,7 @@ article#Library{
 }
 
 .Paper-buttons{
-    transform: translate(50px,3px);
+    transform: translate(44px,3px);
 }
 #Paper-Image{
     width: 98%;
@@ -1240,7 +1252,7 @@ article#Library{
 }
 
 .Notebook-buttons{
-    transform: translate(100px,3px);
+    transform: translate(94px,3px);
 }
 
 #Notebook-Image{
@@ -1286,12 +1298,12 @@ article#Elevator{
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
-    width: 50px;
+    width: 250px;
     height: 50px;
 }
 
 .middleElevator-buttons{
-    transform: translate(250px,3px);
+    transform: translate(244px,3px);
 }
 
 #middleElevator-Image{
@@ -1323,12 +1335,12 @@ article#Elevator{
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
-    width: 50px;
+    width: 150px;
     height: 50px;
 }
 
 .downElevator-buttons{
-    transform: translate(225px,3px);
+    transform: translate(219px,3px);
 }
 
 #downElevator-Image{
@@ -1366,7 +1378,7 @@ article#Elevator{
 }
 
 .upElevator-buttons{
-    transform: translate(200px,3px);
+    transform: translate(194px,3px);
 }
 
 #upElevator-Image{
@@ -1402,7 +1414,7 @@ article#Elevator{
 }
 
 .Pocky-buttons{
-    transform: translate(175px,3px);
+    transform: translate(169px,3px);
 }
 
 .Mansion{
@@ -1429,12 +1441,12 @@ article#Elevator{
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
-    width: 50px;
+    width: 250px;
     height: 50px;
 }
 
 .Mansion-buttons{
-    transform: translate(275px,3px);
+    transform: translate(269px,3px);
 }
 
 #Mansion-Image{
@@ -1471,7 +1483,7 @@ article#Elevator{
 }
 
 .elevator-Reference-buttons{
-    transform: translate(175px,3px);
+    transform: translate(169px,3px);
 }
 --------------------------
 
@@ -1518,7 +1530,7 @@ article#Ideas{
 }
 
 .Typography-image-buttons{
-    transform: translate(250px,3px);
+    transform: translate(244px,3px);
 }
 #Typography-image-Image{
     width: 100%;
@@ -1554,7 +1566,7 @@ article#Ideas{
 }
 
 .cun-buttons{
-    transform: translate(75px,3px);
+    transform: translate(69px,3px);
 }
 
 .collaterals{
@@ -1582,12 +1594,12 @@ article#Ideas{
     transform: translate(20px, -25px);
     z-index: 100;
     color: black;
-    width: 50px;
+    width: 150px;
     height: 50px;
 }
 
 .collaterals-buttons{
-    transform: translate(200px,3px);
+    transform: translate(194px,3px);
 }
 
 #collaterals-Image{
@@ -1624,21 +1636,19 @@ article#Ideas{
 }
 
 .cun-col-buttons{
-    transform: translate(125px,3px);
+    transform: translate(119px,3px);
 }
 
 /*---------------------------------------------------------*/
 
 .folders-Icons>figure{
     z-index:200;
-    
     float: left;
     padding: 25px;
 }
 
-figure>svg{
-    width: 50px;
-    height: 50px;
+figure svg{
+    font-size: 50px;
 }
 
 .interest-aside{
