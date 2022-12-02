@@ -150,12 +150,12 @@ html,
 body {
     margin: 0;
     padding: 0;
-    min-width: 1140px;
+    min-width: 71.25rem;
 }
 
 body{
    background-image: url("../css/img/fondo.jpg"); 
-   width: 1000px;
+   width: 62.5rem;
    height: auto; 
 
 }
@@ -166,7 +166,7 @@ img{
 }
 
 #logoPrincipal{
-    width: 100px;
+    width: 6.25rem;
     height: auto;
 }
 
@@ -174,7 +174,7 @@ nav#Elen-navbar {
     box-sizing: border-box;
     margin: 0;
     background-color: white;
-    height: 100px;
+    height: 6.25rem;
     min-width: 100vw;
     width: 150vw;
     position: fixed;
@@ -188,11 +188,11 @@ nav#Elen-navbar {
 
     box-sizing: border-box;
     margin: 0;
-    padding: 150px;
+    padding: 9.375rem;
     min-width: 100vw;
     min-height: 100vh;
     text-align: center;
-    padding-top:250px ;
+    padding-top:15.625rem ;
   
 
 }
@@ -204,11 +204,11 @@ footer#Footer{
     box-sizing: border-box;
     margin: 0;
     background-color: #333;
-    height: 100px;
+    height: 6.25rem;
     min-width: 100vw;
     width: 150vw;
     color: white;
-    padding: 50px;
+    padding: 3.125rem;
 
     
     
@@ -218,12 +218,12 @@ footer#Footer{
 
     box-sizing: border-box;
     margin: 0;
-    padding: 150px;
+    padding: 9.375rem;
     min-width: 100vw;
     min-height: 100vh;
     text-align: center;
     height: 1000vh;
-    padding-top: 250px;
+    padding-top: 15.625rem;
 
 }
 
@@ -231,17 +231,17 @@ footer#Footer{
 
 div.portafoliofolder {
     position: absolute;
-    width: 700px;
-    height: 490px;
+    width: 43.75rem;
+    height: 30.625rem;
     margin: 0 auto;
-    margin-top: 150px;
-    border: 3px solid black;
-    border-radius: 10px;
-    box-shadow: 20px 20px 20px #333;
+    margin-top: 9.375rem;
+    border: 0.1875rem solid black;
+    border-radius: 0.625rem;
+    box-shadow: 1.25rem 1.25rem 1.25rem #333;
     overflow: hidden;
-    left: 40px;
+    left: 2.5rem;
     z-index: 1;
-    transform: translate(250px, -220px);
+    transform: translate(15.625rem, -13.75rem);
     
 
 
@@ -251,13 +251,13 @@ div.portafoliofolder {
 div.portafoliofolder:before {
     content: '';
     position: absolute;
-    border: 1px solid rgba(255, 255, 255, 0.28);
-    border: 1px solid black;
-    width: 680px;
-    height: 420px;
-    box-shadow: 0px 0px 0px 2000px white;
-    left: 7px;
-    top: 45px;
+    border: 0.0625rem solid rgba(255, 255, 255, 0.28);
+    border: 0.0625rem solid black;
+    width: 42.5rem;
+    height: 26.25rem;
+    box-shadow: 0rem 0rem 0rem 125rem white;
+    left: 0.4375rem;
+    top: 2.8125rem;
     z-index: 1;
 
 }
@@ -265,56 +265,56 @@ div.portafoliofolder:before {
 div.glassmorphism {
     /* From https://css.glass */
     background: rgba(255, 255, 255, 0.16);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.3px);
-    -webkit-backdrop-filter: blur(6.3px);
-    border: 1px solid rgba(255, 255, 255, 0.28);
+    border-radius: 1rem;
+    box-shadow: 0 0.25rem 1.875rem rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.3937rem);
+    -webkit-backdrop-filter: blur(0.3937rem);
+    border: 0.0625rem solid rgba(255, 255, 255, 0.28);
     position: absolute;
-    transform: translate(150px, -25px);
-    width: 680px;
-    height: 420px;
+    transform: translate(9.375rem, -1.5625rem);
+    width: 42.5rem;
+    height: 26.25rem;
 
     z-index: -1;
 }
 
 .windowsTitleBlock {
     position: absolute;
-    transform: translate(140px, -105px);
-    width: 300px;
-    height: 60px;
+    transform: translate(8.75rem, -6.5625rem);
+    width: 18.75rem;
+    height: 3.75rem;
     background: white;
-    border-top: 3px black solid;
-    border-left: 3px black solid;
-    border-right: 3px black solid;
-    border-radius: 10px 20px 0 0;
+    border-top: 0.1875rem black solid;
+    border-left: 0.1875rem black solid;
+    border-right: 0.1875rem black solid;
+    border-radius: 0.625rem 1.25rem 0 0;
     z-index: 2;
 }
 
 #portafolio-paragraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: black;
-    width: 200px;
-    height: 50px;
+    width: 12.5rem;
+    height: 3.125rem;
     
     
 }
 .bi-star{
     display: flex;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: bolder;
     z-index: 4;
-    transform: translate(-485px,-30px);
+    transform: translate(-30.3125rem,-1.875rem);
 }
 
 .whiteBlock {
     position: sticky;
-    width: 349px;
-    height: 30px;
+    width: 21.8125rem;
+    height: 1.875rem;
     background-color: white;
-    bottom: 10px;
-    transform: translate(160px,-67px);
+    bottom: 0.625rem;
+    transform: translate(10rem,-4.1875rem);
     z-index: 3;
 }
 
@@ -324,9 +324,9 @@ div.glassmorphism {
 
 .portafolioHeaderElements {
     position: absolute;
-    width: 250px;
-    height: 250px;
-    transform: translate(655px, -60px);
+    width: 15.625rem;
+    height: 15.625rem;
+    transform: translate(40.9375rem, -3.75rem);
     z-index: 4;
     float: left;
 
@@ -358,242 +358,242 @@ button.close:hover {
 
 #portafolioInput {
     position: absolute;
-    border: 2px solid black;
-    width: 420px;
-    transform: translate(-500px, 0);
+    border: 0.125rem solid black;
+    width: 26.25rem;
+    transform: translate(-31.25rem, 0);
     z-index: 10;
 }
 
 
 div.principalSite {
     position: absolute;
-    transform: translate(170px, 15px);
+    transform: translate(10.625rem, 0.9375rem);
     background-color: white;
-    width: 180px;
-    height: 350px;
-    border: 2px solid black;
+    width: 11.25rem;
+    height: 21.875rem;
+    border: 0.125rem solid black;
     z-index: 2;
 }
 .bi-suit-heart-fill{
-    font-size: 80px;
+    font-size: 5rem;
     color: black;
 }
 div.webPreference {
     position: absolute;
-    transform: translate(200px, 50px);
+    transform: translate(12.5rem, 3.125rem);
     background-color: white;
-    width: 180px;
-    height: 120px;
-    border-top: 2px solid black;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    width: 11.25rem;
+    height: 7.5rem;
+    border-top: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-right: 0.125rem solid black;
     z-index: 2;
 
 }
 
 div.siteRight {
-    transform: translate(580px, 15px);
+    transform: translate(36.25rem, 0.9375rem);
 }
 
 div.siteLeft {
-    transform: translate(370px, 15px);
+    transform: translate(23.125rem, 0.9375rem);
 }
 
 div.siteBottomRight {
-    transform: translate(580px, 185px);
+    transform: translate(36.25rem, 11.5625rem);
 }
 
 div.siteBottomLeft {
-    transform: translate(370px, 185px);
+    transform: translate(23.125rem, 11.5625rem);
 }
 
 footer.blueFooter {
     position: absolute;
-    transform: translate(-2px, 115px);
+    transform: translate(-0.125rem, 7.1875rem);
     background-color: rgb(255, 0, 98);
-    width: 180px;
-    height: 20px;
-    border-bottom: 2px solid black;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    width: 11.25rem;
+    height: 1.25rem;
+    border-bottom: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-right: 0.125rem solid black;
 }
 
 header.windowsOptions {
     position: absolute;
     background-color: white;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
+    border-top: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+    border-right: 0.125rem solid black;
 }
 
 
 .languages {
     position: absolute;
     background-color: rgb(255, 0, 98);
-    width: 410px;
-    height: 200px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    transform: translate(95px, 250px);
+    width: 25.625rem;
+    height: 12.5rem;
+    border-right: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+    transform: translate(5.9375rem, 15.625rem);
     color: white;
     z-index: 3;
 }
 
 header.languagesHeader {
-    width: 408px;
-    height: 40px;
+    width: 25.5rem;
+    height: 2.5rem;
 }
 
 #languages-paragraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    transform: translate(20px, -25px);
+    transform: translate(1.25rem, -1.5625rem);
     z-index: 3;
     color: black;
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
 
 }
 
 .languages-buttons {
-    transform: translate(149px, 3px);
+    transform: translate(9.3125rem, 0.1875rem);
    
 }
 
 #languagesForm {
 
-    transform: translate(0px, 60px);
+    transform: translate(0rem, 3.75rem);
 }
 
 #languagesForm>select {
-    width: 250px;
+    width: 15.625rem;
 }
 
 .person {
     position: absolute;
     background-color: white;
-    width: 560px;
-    height: 400px;
-    transform: translate(405px, 100px);
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
+    width: 35rem;
+    height: 25rem;
+    transform: translate(25.3125rem, 6.25rem);
+    border-right: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
     z-index: 2;
 
 }
 
 #person-Paragraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    transform: translate(20px, -25px);
+    transform: translate(1.25rem, -1.5625rem);
     z-index: 3;
     color: black;
-    width: 300px;
-    height: 50px;
+    width: 18.75rem;
+    height: 3.125rem;
 
 }
 
 header.personHeader {
-    width: 558px;
-    height: 40px;
+    width: 34.875rem;
+    height: 2.5rem;
 
 }
 
 .person-buttons {
-    transform: translate(219px, 3px);
+    transform: translate(13.6875rem, 0.1875rem);
 
 }
 
 .Person-description{
-    padding-top: 50px;
+    padding-top: 3.125rem;
 
 }
 
 .house{
     display: flex;
-    padding-left: 30px;
+    padding-left: 1.875rem;
    
 }
 
 .website{
     display: flex;
-    padding-left: 30px;
-    margin-top: -10px;
+    padding-left: 1.875rem;
+    margin-top: -0.625rem;
 }
 
 .e-mail{
     display: flex;
-    padding-left: 30px;
-    margin-top: -10px;
+    padding-left: 1.875rem;
+    margin-top: -0.625rem;
 }
 
 .profile {
     position: absolute;
     background-color: white;
-    width: 302px;
-    height: 302px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    transform: translate(700px, -90px);
+    width: 18.875rem;
+    height: 18.875rem;
+    border-right: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+    transform: translate(43.75rem, -5.625rem);
     z-index: 5;
 
 }
 
 #person-text{
     text-align: justify;
-    padding-top: 15px;
-    padding-left: 115px;
-    padding-right: 25px;
+    padding-top: 0.9375rem;
+    padding-left: 7.1875rem;
+    padding-right: 1.5625rem;
 }
 
 header.profileHeader {
-    width: 300px;
-    height: 40px;
+    width: 18.75rem;
+    height: 2.5rem;
 
 
 }
 
 #profile-paragraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    transform: translate(20px, -25px);
+    transform: translate(1.25rem, -1.5625rem);
     color: black;
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
     
     
 }
 
 .profile-buttons {
-    transform: translate(94px, 3px);
+    transform: translate(5.875rem, 0.1875rem);
 
 
 }
 
 #interest {
-    width: 810px;
-    height: 800px;
-    left: 30px;
+    width: 50.625rem;
+    height: 50rem;
+    left: 1.875rem;
 }
 
 div.interestfolder {
     position: absolute;
-    width: 700px;
-    height: 790px;
+    width: 43.75rem;
+    height: 49.375rem;
     margin: 0 auto;
-    margin-top: 150px;
-    border: 3px solid black;
-    border-radius: 10px;
-    box-shadow: 20px 20px 20px #333;
+    margin-top: 9.375rem;
+    border: 0.1875rem solid black;
+    border-radius: 0.625rem;
+    box-shadow: 1.25rem 1.25rem 1.25rem #333;
     overflow: hidden;
-    left: 40px;
+    left: 2.5rem;
     z-index: 1;
-    transform: translate(350px, -220px);
+    transform: translate(21.875rem, -13.75rem);
     
 
 
@@ -604,222 +604,222 @@ div.interestfolder {
 div.interestfolder:before {
     content: '';
     position: absolute;
-    border: 1px solid rgba(255, 255, 255, 0.28);
-    border: 1px solid black;
-    width: 680px;
-    height: 720px;
-    box-shadow: 0px 0px 0px 2000px white;
-    left: 7px;
-    top: 45px;
+    border: 0.0625rem solid rgba(255, 255, 255, 0.28);
+    border: 0.0625rem solid black;
+    width: 42.5rem;
+    height: 45rem;
+    box-shadow: 0rem 0rem 0rem 125rem white;
+    left: 0.4375rem;
+    top: 2.8125rem;
     z-index: 1;
 
 }
 
 .interestWhiteBlock{
     position: sticky;
-    width: 349px;
-    height: 30px;
+    width: 21.8125rem;
+    height: 1.875rem;
     background-color: white;
-    bottom: 10px;
-    transform: translate(280px,-67px);
+    bottom: 0.625rem;
+    transform: translate(17.5rem,-4.1875rem);
     z-index: 3;
 }
 
 #interest-Paragraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: black;
-    width: 200px;
-    height: 50px;
+    width: 12.5rem;
+    height: 3.125rem;
 }
 
 div.interestGlass {
-    width: 685px;
-    height: 725px;
-    transform: translate(250px, -25px);
+    width: 42.8125rem;
+    height: 45.3125rem;
+    transform: translate(15.625rem, -1.5625rem);
     z-index: 1;
 }
 
 .interestHeaderElements {
     position: absolute;
-    width: 500px;
-    height: 250px;
-    transform: translate(629px, -60px);
+    width: 31.25rem;
+    height: 15.625rem;
+    transform: translate(39.3125rem, -3.75rem);
     z-index: 4;
     float: left;
 }
 
 #interestInput {
     position: absolute;
-    border: 2px solid black;
-    width: 420px;
-    transform: translate(-500px, 0);
+    border: 0.125rem solid black;
+    width: 26.25rem;
+    transform: translate(-31.25rem, 0);
     z-index: 10;
 }
 
 .interestTitleBlock {
-    transform: translate(240px, -105px);
+    transform: translate(15rem, -6.5625rem);
     z-index: 3;
 }
 
 .backTitleBlock {
     background-color: #333;
-    transform: translate(300px, -105px);
+    transform: translate(18.75rem, -6.5625rem);
     z-index: 1;
 }
 
 .secondBackTitleBlock {
     background-color: #333;
-    transform: translate(350px, -105px);
+    transform: translate(21.875rem, -6.5625rem);
     z-index: -1;
 }
 
 .education {
     position: absolute;
     background-color:white;
-    width: 510px;
-    height: 300px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    transform: translate(95px, 600px);
+    width: 31.875rem;
+    height: 18.75rem;
+    border-right: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+    transform: translate(5.9375rem, 37.5rem);
 
 
     z-index: 2;
 }
 
 .education-HeaderElements{
-    width: 508px;
-    height: 40px;
+    width: 31.75rem;
+    height: 2.5rem;
 }
 
 .education-buttons{
-    transform: translate(197px,3px);
+    transform: translate(12.3125rem,0.1875rem);
 
 }
 
 #education-Paragraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    transform: translate(20px, -25px);
+    transform: translate(1.25rem, -1.5625rem);
     z-index: 100;
     color: black;
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
 }
 
 .experience {
     position: absolute;
     background-color: white;
-    width: 520px;
-    height: 540px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    transform: translate(505px, 250px);
+    width: 32.5rem;
+    height: 33.75rem;
+    border-right: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+    transform: translate(31.5625rem, 15.625rem);
     z-index: 4;
 
 }
 
 .experience-HeaderElements{
-    width: 518px;
-    height: 40px;
+    width: 32.375rem;
+    height: 2.5rem;
 }
 .experience-buttons{
-    transform: translate(202px,3px);
+    transform: translate(12.625rem,0.1875rem);
 
 }
 #experience-Paragraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    transform: translate(20px, -25px);
+    transform: translate(1.25rem, -1.5625rem);
     z-index: 100;
     color: black;
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
 }
 
 #experiences-footer{
     background-color: rgb(255, 0, 98);
-    width: 518px;
-    height: 135px;
-    transform: translate(0, 403px);
+    width: 32.375rem;
+    height: 8.4375rem;
+    transform: translate(0, 25.1875rem);
 }
 
 .skillSet {
     position: absolute;
     background-color: white;
-    width: 500px;
-    height: 300px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    transform: translate(25px, 60px);
+    width: 31.25rem;
+    height: 18.75rem;
+    border-right: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+    transform: translate(1.5625rem, 3.75rem);
     z-index: 2;
 
 }
 
 .skillSet-HeaderElements{
-    width: 498px;
-    height: 40px;
+    width: 31.125rem;
+    height: 2.5rem;
 }
 
 .skillSet-buttons{
-    transform: translate(192px,3px);
+    transform: translate(12rem,0.1875rem);
 
 }
 
 #skillSet-Paragraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    transform: translate(20px, -25px);
+    transform: translate(1.25rem, -1.5625rem);
     z-index: 100;
     color: black;
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
 }
 
 .hiredRebecca {
     position: absolute;
     background-color: white;
-    width: 250px;
-    height: 125px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    transform: translate(830px, 770px);
+    width: 15.625rem;
+    height: 7.8125rem;
+    border-right: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+    transform: translate(51.875rem, 48.125rem);
     z-index: 6;
 }
 
 .hiredRebecca-HeaderElements{
     
-    width: 248px;
-    height: 40px;
+    width: 15.5rem;
+    height: 2.5rem;
     z-index: 5;
 }
 
 #hiredRebecca-Paragraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    transform: translate(20px, -25px);
+    transform: translate(1.25rem, -1.5625rem);
     z-index: 100;
     color: black;
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
 }
 .YesOrNo-buttons{
-    width: 250px;
-    padding-top: 65px;
+    width: 15.625rem;
+    padding-top: 4.0625rem;
 
 }
 .Yes-button
 {
-    width: 85px;
-    transform: translate(-15px,0);
+    width: 5.3125rem;
+    transform: translate(-0.9375rem,0);
 }
 
 .Yes-button:before{
@@ -838,30 +838,30 @@ div.interestGlass {
 
 .No-button
 {
-    width: 85px;
-    transform: translate(15px,0);
+    width: 5.3125rem;
+    transform: translate(0.9375rem,0);
 }
 .No-button:hover{
     background-color: rgb(255, 0, 43);
 }
 
 .hiredRebecca-buttons{
-    transform: translate(67px,3px);
+    transform: translate(4.1875rem,0.1875rem);
 }
 
 .sobriety {
     position: absolute;
     background-color: rgb(255, 0, 98);
-    width: 250px;
-    height: 300px;
-    transform: translate(860px, 120px);
+    width: 15.625rem;
+    height: 18.75rem;
+    transform: translate(53.75rem, 7.5rem);
     z-index: 1;
 }
 
 .Sobriety-Paragraphs{
     color: white;
-    letter-spacing: 2px;
-    margin-top: -2px;
+    letter-spacing: 0.125rem;
+    margin-top: -0.125rem;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -871,10 +871,10 @@ article#Digital-representation{
     position: relative;
     box-sizing: border-box;
     margin: 0;
-    padding-top: 350px;
+    padding-top: 21.875rem;
     min-width: 100vw;
     min-height: 100vh;
-    height: 1200px;
+    height: 75rem;
     text-align: center;
    
 
@@ -884,38 +884,38 @@ article#Digital-representation{
     position: absolute;
     
     background-color: white;
-    width: 402px;
-    height: 602px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    transform: translate(100px, -90px);
+    width: 25.125rem;
+    height: 37.625rem;
+    border-right: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+    transform: translate(6.25rem, -5.625rem);
     z-index: 5;
 }
 
 .digital-Illustration-Header{
-    width: 400px;
-    height: 40px;
+    width: 25rem;
+    height: 2.5rem;
 }
 
 #digital-illustrationParagraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    transform: translate(20px, -25px);
+    transform: translate(1.25rem, -1.5625rem);
     z-index: 100;
     color: black;
-    width: 150px;
-    height: 50px;
+    width: 9.375rem;
+    height: 3.125rem;
 }
 
 .digital-illustration-buttons{
-    transform: translate(142px,3px);
+    transform: translate(8.875rem,0.1875rem);
 }
 
 #digital-illustration-image{
     height: auto;
-    padding-top: 50px;
+    padding-top: 3.125rem;
     object-fit: contain;
     width: 100%;
 }
@@ -923,153 +923,153 @@ article#Digital-representation{
 .Digital-fish{
     position: absolute;
     background-color: white;
-    width: 202px;
-    height: 202px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    transform: translate(70px, 390px);
+    width: 12.625rem;
+    height: 12.625rem;
+    border-right: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+    transform: translate(4.375rem, 24.375rem);
     z-index: 5;
 }
 
 .Digital-fish-Header{
-    width: 200px;
-    height: 40px;
+    width: 12.5rem;
+    height: 2.5rem;
 }
 
 #Digital-fish-Paragraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    transform: translate(20px, -25px);
+    transform: translate(1.25rem, -1.5625rem);
     z-index: 100;
     color: black;
-    width: 75px;
-    height: 50px;
+    width: 4.6875rem;
+    height: 3.125rem;
 }
 
 .Digital-fish-buttons{
-    transform: translate(44px,3px);
+    transform: translate(2.75rem,0.1875rem);
 }
 
 
 .Digital-Computer{
     position: absolute;
     background-color: white;
-    width: 202px;
-    height: 202px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    transform: translate(200px, 550px);
+    width: 12.625rem;
+    height: 12.625rem;
+    border-right: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+    transform: translate(12.5rem, 34.375rem);
     z-index: 5;
 }
 
 .Digital-Computer-Header{
-    width: 200px;
-    height: 40px;
+    width: 12.5rem;
+    height: 2.5rem;
 }
 
 #Digital-Computer-Paragraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    transform: translate(20px, -25px);
+    transform: translate(1.25rem, -1.5625rem);
     z-index: 100;
     color: black;
-    width: 75px;
-    height: 50px;
+    width: 4.6875rem;
+    height: 3.125rem;
 }
 
 .Digital-Computer-buttons{
-    transform: translate(44px,3px);
+    transform: translate(2.75rem,0.1875rem);
 }
 
 #Digital-Computer-Image{
-    padding-top:45px ;
+    padding-top:2.8125rem ;
    
 }
 
 .Digital-World{
     position: absolute;
     background-color: white;
-    width: 502px;
-    height: 702px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    transform: translate(620px, 200px);
+    width: 31.375rem;
+    height: 43.875rem;
+    border-right: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+    transform: translate(38.75rem, 12.5rem);
     z-index: 5;
 }
 
 .Digital-World-Header{
-    width: 500px;
-    height: 40px;
+    width: 31.25rem;
+    height: 2.5rem;
 }
 
 #Digital-World-Paragraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    transform: translate(20px, -25px);
+    transform: translate(1.25rem, -1.5625rem);
     z-index: 100;
     color: black;
-    width: 200px;
-    height: 50px;
+    width: 12.5rem;
+    height: 3.125rem;
 }
 
 .Digital-World-buttons{
-    transform: translate(194px,3px);
+    transform: translate(12.125rem,0.1875rem);
 }
 
 #Digital-World-Image{
     height:auto;
-    padding-top: 10px;
+    padding-top: 0.625rem;
     object-fit: fill;
-    width: 450px;
+    width: 28.125rem;
 }
 
 #fishy{
     position: absolute;
     background-color: white;
-    width: 502px;
-    height: 250px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    transform: translate(450px, -60px);
+    width: 31.375rem;
+    height: 15.625rem;
+    border-right: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+    transform: translate(28.125rem, -3.75rem);
     z-index: 7;
 
 }
 
 .fishy-Header{
-    width: 500px;
-    height: 40px;
+    width: 31.25rem;
+    height: 2.5rem;
 }
 
 #fishy-Paragraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    transform: translate(20px, -25px);
+    transform: translate(1.25rem, -1.5625rem);
     z-index: 100;
     color: black;
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
 }
 
 .fishy-buttons{
-    transform: translate(194px,3px);
+    transform: translate(12.125rem,0.1875rem);
 }
 
 article#Library{
     position: relative;
     box-sizing: border-box;
     margin: 0;
-    padding-top: 150px;
+    padding-top: 9.375rem;
     min-width: 100vw;
     min-height: 100vh;
-    height: 1200px;
+    height: 75rem;
     text-align: center;
     
 
@@ -1078,65 +1078,65 @@ article#Library{
 .Compaign{
     position: absolute;
     background-color: white;
-    width: 452px;
-    height: 400px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    transform: translate(550px, 0px);
+    width: 28.25rem;
+    height: 25rem;
+    border-right: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+    transform: translate(34.375rem, 0rem);
     z-index: 7;
 }
 
 .Compaign-Header{
-    width: 450px;
-    height: 40px;
+    width: 28.125rem;
+    height: 2.5rem;
 }
 
 #Compaign-Paragraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    transform: translate(20px, -25px);
+    transform: translate(1.25rem, -1.5625rem);
     z-index: 100;
     color: black;
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
 }
 
 .Compaign-buttons{
-    transform: translate(169px,3px);
+    transform: translate(10.5625rem,0.1875rem);
 }
 
 .Book{
     position: absolute;
     background-color: white;
-    width: 502px;
-    height: 712px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    transform: translate(100px, -90px);
+    width: 31.375rem;
+    height: 44.5rem;
+    border-right: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+    transform: translate(6.25rem, -5.625rem);
     z-index: 5;
 }
 
 .Book-Header{
-    width: 500px;
-    height: 40px;
+    width: 31.25rem;
+    height: 2.5rem;
 }
 
 #Book-Paragraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    transform: translate(20px, -25px);
+    transform: translate(1.25rem, -1.5625rem);
     z-index: 100;
     color: black;
-    width: 150px;
-    height: 50px;
+    width: 9.375rem;
+    height: 3.125rem;
 }
 
 .Book-buttons{
-    transform: translate(194px,3px);
+    transform: translate(12.125rem,0.1875rem);
 }
 
 #Book-Image{
@@ -1150,33 +1150,33 @@ article#Library{
 .Poster{
     position: absolute;
     background-color: white;
-    width: 252px;
-    height: 333px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    transform: translate(70px, 600px);
+    width: 15.75rem;
+    height: 20.8125rem;
+    border-right: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+    transform: translate(4.375rem, 37.5rem);
     z-index: 5;
 }
 
 .Poster-Header{
-    width: 250px;
-    height: 40px;
+    width: 15.625rem;
+    height: 2.5rem;
 }
 
 #Poster-Paragraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    transform: translate(20px, -25px);
+    transform: translate(1.25rem, -1.5625rem);
     z-index: 100;
     color: black;
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
 }
 
 .Poster-buttons{
-    transform: translate(69px,3px);
+    transform: translate(4.3125rem,0.1875rem);
 }
 
 #Poster-Image{
@@ -1188,34 +1188,34 @@ article#Library{
 .Paper{
     position: absolute;
     background-color: white;
-    width: 202px;
-    height: 302px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    transform: translate(500px, 650px);
+    width: 12.625rem;
+    height: 18.875rem;
+    border-right: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+    transform: translate(31.25rem, 40.625rem);
     z-index: 9;
 
 }
 
 .Paper-Header{
-    width: 200px;
-    height: 40px;
+    width: 12.5rem;
+    height: 2.5rem;
 }
 
 #Paper-Paragraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    transform: translate(20px, -25px);
+    transform: translate(1.25rem, -1.5625rem);
     z-index: 100;
     color: black;
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
 }
 
 .Paper-buttons{
-    transform: translate(44px,3px);
+    transform: translate(2.75rem,0.1875rem);
 }
 #Paper-Image{
     width: 98%;
@@ -1226,49 +1226,49 @@ article#Library{
 .Notebook{
     position: absolute;
     background-color: white;
-    width: 302px;
-    height: 250px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    transform: translate(270px, 450px);
+    width: 18.875rem;
+    height: 15.625rem;
+    border-right: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+    transform: translate(16.875rem, 28.125rem);
     z-index: 5;
 }
 
 .Notebook-Header{
-    width: 300px;
-    height: 40px;
+    width: 18.75rem;
+    height: 2.5rem;
 }
 
 #Notebook-Paragraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    transform: translate(20px, -25px);
+    transform: translate(1.25rem, -1.5625rem);
     z-index: 100;
     color: black;
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
 }
 
 .Notebook-buttons{
-    transform: translate(94px,3px);
+    transform: translate(5.875rem,0.1875rem);
 }
 
 #Notebook-Image{
     width: 100%;
     height: auto;
-    padding-top: 40px;
+    padding-top: 2.5rem;
 }
 
 article#Elevator{
     position: relative;
     box-sizing: border-box;
     margin: 0;
-    padding-top: 150px;
+    padding-top: 9.375rem;
     min-width: 100vw;
     min-height: 100vh;
-    height: 1570px;
+    height: 98.125rem;
     text-align: center;
  
 
@@ -1277,33 +1277,33 @@ article#Elevator{
 .middleElevator{
     position: absolute;
     background-color: white;
-    width: 602px;
-    height: 802px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    transform: translate(100px, -90px);
+    width: 37.625rem;
+    height: 50.125rem;
+    border-right: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+    transform: translate(6.25rem, -5.625rem);
     z-index: 5;
 }
 
 .middleElevator-Header{
-    width: 600px;
-    height: 40px;
+    width: 37.5rem;
+    height: 2.5rem;
 }
 
 #middleElevator-Paragraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    transform: translate(20px, -25px);
+    transform: translate(1.25rem, -1.5625rem);
     z-index: 100;
     color: black;
-    width: 250px;
-    height: 50px;
+    width: 15.625rem;
+    height: 3.125rem;
 }
 
 .middleElevator-buttons{
-    transform: translate(244px,3px);
+    transform: translate(15.25rem,0.1875rem);
 }
 
 #middleElevator-Image{
@@ -1314,33 +1314,33 @@ article#Elevator{
 .downElevator{
     position: absolute;
     background-color: white;
-    width: 552px;
-    height: 369px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    transform: translate(70px, 600px);
+    width: 34.5rem;
+    height: 23.0625rem;
+    border-right: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+    transform: translate(4.375rem, 37.5rem);
     z-index: 6;
 }
 
 .downElevator-Header{
-    width: 550px;
-    height: 40px;
+    width: 34.375rem;
+    height: 2.5rem;
 }
 
 #downElevator-Paragraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    transform: translate(20px, -25px);
+    transform: translate(1.25rem, -1.5625rem);
     z-index: 100;
     color: black;
-    width: 150px;
-    height: 50px;
+    width: 9.375rem;
+    height: 3.125rem;
 }
 
 .downElevator-buttons{
-    transform: translate(219px,3px);
+    transform: translate(13.6875rem,0.1875rem);
 }
 
 #downElevator-Image{
@@ -1351,102 +1351,102 @@ article#Elevator{
 .upElevator{
     position: absolute;
     background-color: white;
-    width: 502px;
-    height: 302px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    transform: translate(500px, 500px);
+    width: 31.375rem;
+    height: 18.875rem;
+    border-right: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+    transform: translate(31.25rem, 31.25rem);
     z-index: 5;
 
 }
 
 .upElevator-Header{
-    width: 500px;
-    height: 40px;
+    width: 31.25rem;
+    height: 2.5rem;
 }
 
 #upElevator-Paragraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    transform: translate(20px, -25px);
+    transform: translate(1.25rem, -1.5625rem);
     z-index: 100;
     color: black;
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
 }
 
 .upElevator-buttons{
-    transform: translate(194px,3px);
+    transform: translate(12.125rem,0.1875rem);
 }
 
 #upElevator-Image{
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 
 .Pocky{
     position: absolute;
     background-color: white;
-    width: 452px;
-    height: 320px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    transform: translate(550px, 170px);
+    width: 28.25rem;
+    height: 20rem;
+    border-right: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+    transform: translate(34.375rem, 10.625rem);
     z-index: 7;
 }
 
 .Pocky-Header{
-    width: 450px;
-    height: 40px;
+    width: 28.125rem;
+    height: 2.5rem;
 }
 
 #Pocky-Paragraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    transform: translate(20px, -25px);
+    transform: translate(1.25rem, -1.5625rem);
     z-index: 100;
     color: black;
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
 }
 
 .Pocky-buttons{
-    transform: translate(169px,3px);
+    transform: translate(10.5625rem,0.1875rem);
 }
 
 .Mansion{
     position: absolute;
     background-color: white;
-    width: 652px;
-    height: 365px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    transform: translate(550px, 1070px);
+    width: 40.75rem;
+    height: 22.8125rem;
+    border-right: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+    transform: translate(34.375rem, 66.875rem);
     z-index: 7;
 }
 
 .Mansion-Header{
-    width: 650px;
-    height: 40px;
+    width: 40.625rem;
+    height: 2.5rem;
 }
 
 #Mansion-Paragraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    transform: translate(20px, -25px);
+    transform: translate(1.25rem, -1.5625rem);
     z-index: 100;
     color: black;
-    width: 250px;
-    height: 50px;
+    width: 15.625rem;
+    height: 3.125rem;
 }
 
 .Mansion-buttons{
-    transform: translate(269px,3px);
+    transform: translate(16.8125rem,0.1875rem);
 }
 
 #Mansion-Image{
@@ -1457,33 +1457,33 @@ article#Elevator{
 .elevator-Reference{
     position: absolute;
     background-color: white;
-    width: 452px;
-    height: 320px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    transform: translate(150px, 1170px);
+    width: 28.25rem;
+    height: 20rem;
+    border-right: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+    transform: translate(9.375rem, 73.125rem);
     z-index: 8;
 }
 
 .elevator-Reference-Header{
-    width: 450px;
-    height: 40px;
+    width: 28.125rem;
+    height: 2.5rem;
 }
 
 #elevator-Reference-Paragraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    transform: translate(20px, -25px);
+    transform: translate(1.25rem, -1.5625rem);
     z-index: 100;
     color: black;
-    width: 200px;
-    height: 50px;
+    width: 12.5rem;
+    height: 3.125rem;
 }
 
 .elevator-Reference-buttons{
-    transform: translate(169px,3px);
+    transform: translate(10.5625rem,0.1875rem);
 }
 --------------------------
 
@@ -1491,10 +1491,10 @@ article#Ideas{
     position: relative;
     box-sizing: border-box;
     margin: 0;
-    padding-top: 150px;
+    padding-top: 9.375rem;
     min-width: 100vw;
     min-height: 100vh;
-    height: 1200px;
+    height: 75rem;
     text-align: center;
     background-color:black;
 
@@ -1503,34 +1503,34 @@ article#Ideas{
 .Typography-image{
     position: absolute;
     background-color: white;
-    width: 602px;
-    height: 600px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    transform: translate(500px, 100px);
+    width: 37.625rem;
+    height: 37.5rem;
+    border-right: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+    transform: translate(31.25rem, 6.25rem);
     z-index: 5;
 
 }
 
 .Typography-image-Header{
-    width: 600px;
-    height: 40px;
+    width: 37.5rem;
+    height: 2.5rem;
 }
 
 #Typography-image-Paragraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    transform: translate(20px, -25px);
+    transform: translate(1.25rem, -1.5625rem);
     z-index: 100;
     color: black;
-    width: 200px;
-    height: 50px;
+    width: 12.5rem;
+    height: 3.125rem;
 }
 
 .Typography-image-buttons{
-    transform: translate(244px,3px);
+    transform: translate(15.25rem,0.1875rem);
 }
 #Typography-image-Image{
     width: 100%;
@@ -1540,66 +1540,66 @@ article#Ideas{
 .cun{
     position: absolute;
     background-color: white;
-    width: 252px;
-    height: 480px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    transform: translate(100px, 170px);
+    width: 15.75rem;
+    height: 30rem;
+    border-right: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+    transform: translate(6.25rem, 10.625rem);
     z-index: 7;
 }
 
 .cun-Header{
-    width: 250px;
-    height: 40px;
+    width: 15.625rem;
+    height: 2.5rem;
 }
 
 #cun-Paragraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    transform: translate(20px, -25px);
+    transform: translate(1.25rem, -1.5625rem);
     z-index: 100;
     color: black;
-    width: 100px;
-    height: 50px;
+    width: 6.25rem;
+    height: 3.125rem;
 }
 
 .cun-buttons{
-    transform: translate(69px,3px);
+    transform: translate(4.3125rem,0.1875rem);
 }
 
 .collaterals{
     position: absolute;
     background-color: white;
-    width: 502px;
-    height: 500px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    transform: translate(100px, 900px);
+    width: 31.375rem;
+    height: 31.25rem;
+    border-right: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+    transform: translate(6.25rem, 56.25rem);
     z-index: 5;
 
 }
 
 .collaterals-Header{
-    width: 500px;
-    height: 40px;
+    width: 31.25rem;
+    height: 2.5rem;
 }
 
 #collaterals-Paragraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    transform: translate(20px, -25px);
+    transform: translate(1.25rem, -1.5625rem);
     z-index: 100;
     color: black;
-    width: 150px;
-    height: 50px;
+    width: 9.375rem;
+    height: 3.125rem;
 }
 
 .collaterals-buttons{
-    transform: translate(194px,3px);
+    transform: translate(12.125rem,0.1875rem);
 }
 
 #collaterals-Image{
@@ -1610,33 +1610,33 @@ article#Ideas{
 .cun-col{
     position: absolute;
     background-color: white;
-    width: 352px;
-    height: 250px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    transform: translate(550px, 970px);
+    width: 22rem;
+    height: 15.625rem;
+    border-right: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+    transform: translate(34.375rem, 60.625rem);
     z-index: 7;
 }
 
 .cun-col-Header{
-    width: 350px;
-    height: 40px;
+    width: 21.875rem;
+    height: 2.5rem;
 }
 
 #cun-col-Paragraph{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
-    transform: translate(20px, -25px);
+    transform: translate(1.25rem, -1.5625rem);
     z-index: 100;
     color: black;
-    width: 150px;
-    height: 50px;
+    width: 9.375rem;
+    height: 3.125rem;
 }
 
 .cun-col-buttons{
-    transform: translate(119px,3px);
+    transform: translate(7.4375rem,0.1875rem);
 }
 
 /*---------------------------------------------------------*/
@@ -1644,113 +1644,113 @@ article#Ideas{
 .folders-Icons>figure{
     z-index:200;
     float: left;
-    padding: 25px;
+    padding: 1.5625rem;
 }
 
 figure svg{
-    font-size: 50px;
+    font-size: 3.125rem;
 }
 
 .interest-aside{
     background-color:white;
-    width: 150px;
-    height: 725px;
-    border-right:1px solid black ;
+    width: 9.375rem;
+    height: 45.3125rem;
+    border-right:0.0625rem solid black ;
     float: left;
 
 }
 
 .interest-star{
-    transform: translate(-360px,-30px);
+    transform: translate(-22.5rem,-1.875rem);
 }
 
 #skillSet-text{
     text-align: justify;
-    padding:45px 25px 25px 25px;
+    padding:2.8125rem 1.5625rem 1.5625rem 1.5625rem;
  
    
 }
 
 #fishy-text{
     text-align: justify;
-    padding:5px 25px 25px 25px;
+    padding:0.3125rem 1.5625rem 1.5625rem 1.5625rem;
  
    
 }
 
 #fishy-h4{
     text-align: justify;
-    padding:45px 25px 5px 25px;
+    padding:2.8125rem 1.5625rem 0.3125rem 1.5625rem;
  
    
 }
 
 #Compaign-text{
     text-align: justify;
-    padding:5px 25px 25px 25px;
+    padding:0.3125rem 1.5625rem 1.5625rem 1.5625rem;
  
    
 }
 
 #Compaign-h4{
     text-align: justify;
-    padding:45px 25px 5px 25px;
+    padding:2.8125rem 1.5625rem 0.3125rem 1.5625rem;
  
    
 }
 
 #Pocky-text{
     text-align: justify;
-    padding:0px 25px 25px 25px;
+    padding:0rem 1.5625rem 1.5625rem 1.5625rem;
  
    
 }
 
 #Pocky-h4{
     text-align: justify;
-    padding:45px 25px 3px 25px;
+    padding:2.8125rem 1.5625rem 0.1875rem 1.5625rem;
  
    
 }
 
 #elevator-Reference-text{
     text-align: justify;
-    padding:0px 25px 25px 25px;
+    padding:0rem 1.5625rem 1.5625rem 1.5625rem;
  
    
 }
 
 #elevator-Reference-h4{
     text-align: justify;
-    padding:45px 25px 3px 25px;
+    padding:2.8125rem 1.5625rem 0.1875rem 1.5625rem;
  
    
 }
 
 #cun-text{
     text-align: justify;
-    padding:0px 25px 25px 25px;
+    padding:0rem 1.5625rem 1.5625rem 1.5625rem;
  
    
 }
 
 #cun-h4{
     text-align: justify;
-    padding:45px 25px 3px 25px;
+    padding:2.8125rem 1.5625rem 0.1875rem 1.5625rem;
  
    
 }
 
 #cun-col-text{
     text-align: justify;
-    padding:0px 25px 25px 25px;
+    padding:0rem 1.5625rem 1.5625rem 1.5625rem;
  
    
 }
 
 #cun-col-h4{
     text-align: justify;
-    padding:45px 25px 3px 25px;
+    padding:2.8125rem 1.5625rem 0.1875rem 1.5625rem;
  
    
 }
