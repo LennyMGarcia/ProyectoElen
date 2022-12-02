@@ -1,4 +1,3 @@
-
 /*-----------------------IMPORTS--------------------------*/
 
 
@@ -153,19 +152,20 @@ body {
     min-width: 71.25rem;
 }
 
-body{
-   background-image: url("../css/img/fondo.jpg"); 
-   width: 62.5rem;
-   height: auto; 
+body {
+    background-image: url("../css/img/fondo.jpg");
+    width: 62.5rem;
+    height: auto;
 
 }
-img{
+
+img {
     object-fit: contain;
     width: 100%;
     height: auto;
 }
 
-#logoPrincipal{
+#logoPrincipal {
     width: 6.25rem;
     height: auto;
 }
@@ -179,8 +179,8 @@ nav#Elen-navbar {
     width: 150vw;
     position: fixed;
     z-index: 200;
-  
-    
+
+
 }
 
 
@@ -192,15 +192,15 @@ nav#Elen-navbar {
     min-width: 100vw;
     min-height: 100vh;
     text-align: center;
-    padding-top:15.625rem ;
-  
+    padding-top: 15.625rem;
+
 
 }
 
 
 
 
-footer#Footer{
+footer#Footer {
     box-sizing: border-box;
     margin: 0;
     background-color: #333;
@@ -210,8 +210,8 @@ footer#Footer{
     color: white;
     padding: 3.125rem;
 
-    
-    
+
+
 }
 
 .second-content {
@@ -242,7 +242,7 @@ div.portafoliofolder {
     left: 2.5rem;
     z-index: 1;
     transform: translate(15.625rem, -13.75rem);
-    
+
 
 
 
@@ -291,21 +291,22 @@ div.glassmorphism {
     z-index: 2;
 }
 
-#portafolio-paragraph{
+#portafolio-paragraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     color: black;
     width: 12.5rem;
     height: 3.125rem;
-    
-    
+
+
 }
-.bi-star{
+
+.bi-star {
     display: flex;
     font-size: 1.875rem;
     font-weight: bolder;
     z-index: 4;
-    transform: translate(-30.3125rem,-1.875rem);
+    transform: translate(-30.3125rem, -1.875rem);
 }
 
 .whiteBlock {
@@ -314,7 +315,7 @@ div.glassmorphism {
     height: 1.875rem;
     background-color: white;
     bottom: 0.625rem;
-    transform: translate(10rem,-4.1875rem);
+    transform: translate(10rem, -4.1875rem);
     z-index: 3;
 }
 
@@ -335,11 +336,11 @@ div.glassmorphism {
 button.minimize {
     color: black;
     background: white;
-    
+
 }
 
 button.minimize:hover {
-    background:rgb(0, 140, 255);
+    background: rgb(0, 140, 255);
 }
 
 button.maximize {
@@ -374,10 +375,12 @@ div.principalSite {
     border: 0.125rem solid black;
     z-index: 2;
 }
-.bi-suit-heart-fill{
+
+.bi-suit-heart-fill {
     font-size: 5rem;
     color: black;
 }
+
 div.webPreference {
     position: absolute;
     transform: translate(12.5rem, 3.125rem);
@@ -445,7 +448,7 @@ header.languagesHeader {
     height: 2.5rem;
 }
 
-#languages-paragraph{
+#languages-paragraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     display: flex;
@@ -459,7 +462,7 @@ header.languagesHeader {
 
 .languages-buttons {
     transform: translate(9.3125rem, 0.1875rem);
-   
+
 }
 
 #languagesForm {
@@ -484,7 +487,7 @@ header.languagesHeader {
 
 }
 
-#person-Paragraph{
+#person-Paragraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     display: flex;
@@ -507,24 +510,24 @@ header.personHeader {
 
 }
 
-.Person-description{
+.Person-description {
     padding-top: 3.125rem;
 
 }
 
-.house{
+.house {
     display: flex;
     padding-left: 1.875rem;
-   
+
 }
 
-.website{
+.website {
     display: flex;
     padding-left: 1.875rem;
     margin-top: -0.625rem;
 }
 
-.e-mail{
+.e-mail {
     display: flex;
     padding-left: 1.875rem;
     margin-top: -0.625rem;
@@ -543,7 +546,7 @@ header.personHeader {
 
 }
 
-#person-text{
+#person-text {
     text-align: justify;
     padding-top: 0.9375rem;
     padding-left: 7.1875rem;
@@ -557,7 +560,7 @@ header.profileHeader {
 
 }
 
-#profile-paragraph{
+#profile-paragraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     display: flex;
@@ -565,8 +568,8 @@ header.profileHeader {
     color: black;
     width: 3.125rem;
     height: 3.125rem;
-    
-    
+
+
 }
 
 .profile-buttons {
@@ -594,9 +597,6 @@ div.interestfolder {
     left: 2.5rem;
     z-index: 1;
     transform: translate(21.875rem, -13.75rem);
-    
-
-
 
 }
 
@@ -615,17 +615,40 @@ div.interestfolder:before {
 
 }
 
-.interestWhiteBlock{
+.folders-Icons>figure {
+    z-index: 200;
+    float: left;
+    padding: 1.5625rem;
+}
+
+figure svg {
+    font-size: 3.125rem;
+}
+
+.interest-aside {
+    background-color: white;
+    width: 9.375rem;
+    height: 45.3125rem;
+    border-right: 0.0625rem solid black;
+    float: left;
+
+}
+
+.interest-star {
+    transform: translate(-22.5rem, -1.875rem);
+}
+
+.interestWhiteBlock {
     position: sticky;
     width: 21.8125rem;
     height: 1.875rem;
     background-color: white;
     bottom: 0.625rem;
-    transform: translate(17.5rem,-4.1875rem);
+    transform: translate(17.5rem, -4.1875rem);
     z-index: 3;
 }
 
-#interest-Paragraph{
+#interest-Paragraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     color: black;
@@ -676,36 +699,44 @@ div.interestGlass {
 
 .education {
     position: absolute;
-    background-color:white;
+    background-color: white;
     width: 31.875rem;
-    height: 18.75rem;
+    height: 19.75rem;
     border-right: 0.125rem solid black;
     border-left: 0.125rem solid black;
     border-bottom: 0.125rem solid black;
     transform: translate(5.9375rem, 37.5rem);
 
 
-    z-index: 2;
+    z-index: 6;
 }
 
-.education-HeaderElements{
+#education-image {
+    height: auto;
+    padding-top: 3.125rem;
+    object-fit: contain;
+    width: 100%;
+
+}
+
+.education-HeaderElements {
     width: 31.75rem;
     height: 2.5rem;
 }
 
-.education-buttons{
-    transform: translate(12.3125rem,0.1875rem);
+.education-buttons {
+    transform: translate(12.3125rem, 0.1875rem);
 
 }
 
-#education-Paragraph{
+#education-Paragraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     display: flex;
     transform: translate(1.25rem, -1.5625rem);
     z-index: 100;
     color: black;
-    width: 3.125rem;
+    width: 8.125rem;
     height: 3.125rem;
 }
 
@@ -722,15 +753,17 @@ div.interestGlass {
 
 }
 
-.experience-HeaderElements{
+.experience-HeaderElements {
     width: 32.375rem;
     height: 2.5rem;
 }
-.experience-buttons{
-    transform: translate(12.625rem,0.1875rem);
+
+.experience-buttons {
+    transform: translate(12.625rem, 0.1875rem);
 
 }
-#experience-Paragraph{
+
+#experience-Paragraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     display: flex;
@@ -741,11 +774,42 @@ div.interestGlass {
     height: 3.125rem;
 }
 
-#experiences-footer{
+#experience-h4 {
+    padding: 3.8125rem 1.5625rem 0 1.5625rem;
+    text-shadow: -0.125rem 0 0 rgb(255, 0, 98),
+        0 -0.125rem 0 rgb(255, 0, 98),
+        0.125rem 0 0 rgb(0, 89, 255),
+        0 0.125rem 0 rgb(0, 89, 255);
+
+    text-align: left;
+    color: white;
+}
+
+#experience-text {
+    text-align: justify;
+    padding: 1.8125rem 1.5625rem 1.5625rem 1.5625rem;
+
+}
+
+#experience-footer {
     background-color: rgb(255, 0, 98);
     width: 32.375rem;
     height: 8.4375rem;
-    transform: translate(0, 25.1875rem);
+    transform: translate(0, 0);
+    border-right: 0.125rem solid black;
+    border-left: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
+}
+
+#experience-footer-h4 {
+    padding: 3.8125rem 1.5625rem 0.3125rem 1.5625rem;
+    text-shadow: -0.125rem 0 0 white,
+        0 -0.125rem 0 white,
+        0.125rem 0 0 whitesmoke,
+        0 0.125rem 0 whitesmoke;
+
+
+    color: rgb(255, 0, 98);
 }
 
 .skillSet {
@@ -761,17 +825,24 @@ div.interestGlass {
 
 }
 
-.skillSet-HeaderElements{
+#skillSet-text {
+    text-align: justify;
+    padding: 2.8125rem 1.5625rem 1.5625rem 1.5625rem;
+
+
+}
+
+.skillSet-HeaderElements {
     width: 31.125rem;
     height: 2.5rem;
 }
 
-.skillSet-buttons{
-    transform: translate(12rem,0.1875rem);
+.skillSet-buttons {
+    transform: translate(12rem, 0.1875rem);
 
 }
 
-#skillSet-Paragraph{
+#skillSet-Paragraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     display: flex;
@@ -794,14 +865,14 @@ div.interestGlass {
     z-index: 6;
 }
 
-.hiredRebecca-HeaderElements{
-    
+.hiredRebecca-HeaderElements {
+
     width: 15.5rem;
     height: 2.5rem;
     z-index: 5;
 }
 
-#hiredRebecca-Paragraph{
+#hiredRebecca-Paragraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     display: flex;
@@ -811,42 +882,43 @@ div.interestGlass {
     width: 3.125rem;
     height: 3.125rem;
 }
-.YesOrNo-buttons{
+
+.YesOrNo-buttons {
     width: 15.625rem;
     padding-top: 4.0625rem;
 
 }
-.Yes-button
-{
+
+.Yes-button {
     width: 5.3125rem;
-    transform: translate(-0.9375rem,0);
+    transform: translate(-0.9375rem, 0);
 }
 
-.Yes-button:before{
-    
+.Yes-button:before {
+
     content: "Yes";
 }
 
-.Yes-button:hover{
+.Yes-button:hover {
     background-color: rgb(0, 89, 255);
 }
 
-.Yes-button:hover:before{
-    
+.Yes-button:hover:before {
+
     content: "No";
 }
 
-.No-button
-{
+.No-button {
     width: 5.3125rem;
-    transform: translate(0.9375rem,0);
+    transform: translate(0.9375rem, 0);
 }
-.No-button:hover{
+
+.No-button:hover {
     background-color: rgb(255, 0, 43);
 }
 
-.hiredRebecca-buttons{
-    transform: translate(4.1875rem,0.1875rem);
+.hiredRebecca-buttons {
+    transform: translate(4.1875rem, 0.1875rem);
 }
 
 .sobriety {
@@ -858,7 +930,7 @@ div.interestGlass {
     z-index: 1;
 }
 
-.Sobriety-Paragraphs{
+.Sobriety-Paragraphs {
     color: white;
     letter-spacing: 0.125rem;
     margin-top: -0.125rem;
@@ -867,7 +939,7 @@ div.interestGlass {
 
 
 /*---------------------------------------------------------*/
-article#Digital-representation{
+article#Digital-representation {
     position: relative;
     box-sizing: border-box;
     margin: 0;
@@ -876,13 +948,13 @@ article#Digital-representation{
     min-height: 100vh;
     height: 75rem;
     text-align: center;
-   
+
 
 }
 
-.digital-illustration{
+.digital-illustration {
     position: absolute;
-    
+
     background-color: white;
     width: 25.125rem;
     height: 37.625rem;
@@ -893,12 +965,12 @@ article#Digital-representation{
     z-index: 5;
 }
 
-.digital-Illustration-Header{
+.digital-Illustration-Header {
     width: 25rem;
     height: 2.5rem;
 }
 
-#digital-illustrationParagraph{
+#digital-illustrationParagraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     display: flex;
@@ -909,18 +981,18 @@ article#Digital-representation{
     height: 3.125rem;
 }
 
-.digital-illustration-buttons{
-    transform: translate(8.875rem,0.1875rem);
+.digital-illustration-buttons {
+    transform: translate(8.875rem, 0.1875rem);
 }
 
-#digital-illustration-image{
+#digital-illustration-image {
     height: auto;
     padding-top: 3.125rem;
     object-fit: contain;
     width: 100%;
 }
 
-.Digital-fish{
+.Digital-fish {
     position: absolute;
     background-color: white;
     width: 12.625rem;
@@ -932,12 +1004,12 @@ article#Digital-representation{
     z-index: 5;
 }
 
-.Digital-fish-Header{
+.Digital-fish-Header {
     width: 12.5rem;
     height: 2.5rem;
 }
 
-#Digital-fish-Paragraph{
+#Digital-fish-Paragraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     display: flex;
@@ -948,12 +1020,12 @@ article#Digital-representation{
     height: 3.125rem;
 }
 
-.Digital-fish-buttons{
-    transform: translate(2.75rem,0.1875rem);
+.Digital-fish-buttons {
+    transform: translate(2.75rem, 0.1875rem);
 }
 
 
-.Digital-Computer{
+.Digital-Computer {
     position: absolute;
     background-color: white;
     width: 12.625rem;
@@ -965,12 +1037,12 @@ article#Digital-representation{
     z-index: 5;
 }
 
-.Digital-Computer-Header{
+.Digital-Computer-Header {
     width: 12.5rem;
     height: 2.5rem;
 }
 
-#Digital-Computer-Paragraph{
+#Digital-Computer-Paragraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     display: flex;
@@ -981,16 +1053,16 @@ article#Digital-representation{
     height: 3.125rem;
 }
 
-.Digital-Computer-buttons{
-    transform: translate(2.75rem,0.1875rem);
+.Digital-Computer-buttons {
+    transform: translate(2.75rem, 0.1875rem);
 }
 
-#Digital-Computer-Image{
-    padding-top:2.8125rem ;
-   
+#Digital-Computer-Image {
+    padding-top: 2.8125rem;
+
 }
 
-.Digital-World{
+.Digital-World {
     position: absolute;
     background-color: white;
     width: 31.375rem;
@@ -1002,12 +1074,12 @@ article#Digital-representation{
     z-index: 5;
 }
 
-.Digital-World-Header{
+.Digital-World-Header {
     width: 31.25rem;
     height: 2.5rem;
 }
 
-#Digital-World-Paragraph{
+#Digital-World-Paragraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     display: flex;
@@ -1018,18 +1090,18 @@ article#Digital-representation{
     height: 3.125rem;
 }
 
-.Digital-World-buttons{
-    transform: translate(12.125rem,0.1875rem);
+.Digital-World-buttons {
+    transform: translate(12.125rem, 0.1875rem);
 }
 
-#Digital-World-Image{
-    height:auto;
+#Digital-World-Image {
+    height: auto;
     padding-top: 0.625rem;
     object-fit: fill;
     width: 28.125rem;
 }
 
-#fishy{
+#fishy {
     position: absolute;
     background-color: white;
     width: 31.375rem;
@@ -1042,12 +1114,26 @@ article#Digital-representation{
 
 }
 
-.fishy-Header{
+#fishy-text {
+    text-align: justify;
+    padding: 0.3125rem 1.5625rem 1.5625rem 1.5625rem;
+
+
+}
+
+#fishy-h4 {
+    text-align: justify;
+    padding: 2.8125rem 1.5625rem 0.3125rem 1.5625rem;
+
+
+}
+
+.fishy-Header {
     width: 31.25rem;
     height: 2.5rem;
 }
 
-#fishy-Paragraph{
+#fishy-Paragraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     display: flex;
@@ -1058,11 +1144,11 @@ article#Digital-representation{
     height: 3.125rem;
 }
 
-.fishy-buttons{
-    transform: translate(12.125rem,0.1875rem);
+.fishy-buttons {
+    transform: translate(12.125rem, 0.1875rem);
 }
 
-article#Library{
+article#Library {
     position: relative;
     box-sizing: border-box;
     margin: 0;
@@ -1071,11 +1157,11 @@ article#Library{
     min-height: 100vh;
     height: 75rem;
     text-align: center;
-    
+
 
 }
 
-.Compaign{
+.Compaign {
     position: absolute;
     background-color: white;
     width: 28.25rem;
@@ -1087,12 +1173,26 @@ article#Library{
     z-index: 7;
 }
 
-.Compaign-Header{
+#Compaign-text {
+    text-align: justify;
+    padding: 0.3125rem 1.5625rem 1.5625rem 1.5625rem;
+
+
+}
+
+#Compaign-h4 {
+    text-align: justify;
+    padding: 2.8125rem 1.5625rem 0.3125rem 1.5625rem;
+
+
+}
+
+.Compaign-Header {
     width: 28.125rem;
     height: 2.5rem;
 }
 
-#Compaign-Paragraph{
+#Compaign-Paragraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     display: flex;
@@ -1103,11 +1203,11 @@ article#Library{
     height: 3.125rem;
 }
 
-.Compaign-buttons{
-    transform: translate(10.5625rem,0.1875rem);
+.Compaign-buttons {
+    transform: translate(10.5625rem, 0.1875rem);
 }
 
-.Book{
+.Book {
     position: absolute;
     background-color: white;
     width: 31.375rem;
@@ -1119,12 +1219,12 @@ article#Library{
     z-index: 5;
 }
 
-.Book-Header{
+.Book-Header {
     width: 31.25rem;
     height: 2.5rem;
 }
 
-#Book-Paragraph{
+#Book-Paragraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     display: flex;
@@ -1135,19 +1235,19 @@ article#Library{
     height: 3.125rem;
 }
 
-.Book-buttons{
-    transform: translate(12.125rem,0.1875rem);
+.Book-buttons {
+    transform: translate(12.125rem, 0.1875rem);
 }
 
-#Book-Image{
+#Book-Image {
     height: auto;
     width: 100%;
     object-fit: contain;
     background-color: #333;
-    
+
 }
 
-.Poster{
+.Poster {
     position: absolute;
     background-color: white;
     width: 15.75rem;
@@ -1159,12 +1259,12 @@ article#Library{
     z-index: 5;
 }
 
-.Poster-Header{
+.Poster-Header {
     width: 15.625rem;
     height: 2.5rem;
 }
 
-#Poster-Paragraph{
+#Poster-Paragraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     display: flex;
@@ -1175,17 +1275,17 @@ article#Library{
     height: 3.125rem;
 }
 
-.Poster-buttons{
-    transform: translate(4.3125rem,0.1875rem);
+.Poster-buttons {
+    transform: translate(4.3125rem, 0.1875rem);
 }
 
-#Poster-Image{
+#Poster-Image {
     width: 100%;
     height: auto;
 }
 
 
-.Paper{
+.Paper {
     position: absolute;
     background-color: white;
     width: 12.625rem;
@@ -1198,12 +1298,12 @@ article#Library{
 
 }
 
-.Paper-Header{
+.Paper-Header {
     width: 12.5rem;
     height: 2.5rem;
 }
 
-#Paper-Paragraph{
+#Paper-Paragraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     display: flex;
@@ -1214,16 +1314,17 @@ article#Library{
     height: 3.125rem;
 }
 
-.Paper-buttons{
-    transform: translate(2.75rem,0.1875rem);
+.Paper-buttons {
+    transform: translate(2.75rem, 0.1875rem);
 }
-#Paper-Image{
+
+#Paper-Image {
     width: 98%;
     background-color: #333;
     height: auto;
 }
 
-.Notebook{
+.Notebook {
     position: absolute;
     background-color: white;
     width: 18.875rem;
@@ -1235,12 +1336,12 @@ article#Library{
     z-index: 5;
 }
 
-.Notebook-Header{
+.Notebook-Header {
     width: 18.75rem;
     height: 2.5rem;
 }
 
-#Notebook-Paragraph{
+#Notebook-Paragraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     display: flex;
@@ -1251,17 +1352,17 @@ article#Library{
     height: 3.125rem;
 }
 
-.Notebook-buttons{
-    transform: translate(5.875rem,0.1875rem);
+.Notebook-buttons {
+    transform: translate(5.875rem, 0.1875rem);
 }
 
-#Notebook-Image{
+#Notebook-Image {
     width: 100%;
     height: auto;
     padding-top: 2.5rem;
 }
 
-article#Elevator{
+article#Elevator {
     position: relative;
     box-sizing: border-box;
     margin: 0;
@@ -1270,11 +1371,11 @@ article#Elevator{
     min-height: 100vh;
     height: 98.125rem;
     text-align: center;
- 
+
 
 }
 
-.middleElevator{
+.middleElevator {
     position: absolute;
     background-color: white;
     width: 37.625rem;
@@ -1286,12 +1387,12 @@ article#Elevator{
     z-index: 5;
 }
 
-.middleElevator-Header{
+.middleElevator-Header {
     width: 37.5rem;
     height: 2.5rem;
 }
 
-#middleElevator-Paragraph{
+#middleElevator-Paragraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     display: flex;
@@ -1302,16 +1403,16 @@ article#Elevator{
     height: 3.125rem;
 }
 
-.middleElevator-buttons{
-    transform: translate(15.25rem,0.1875rem);
+.middleElevator-buttons {
+    transform: translate(15.25rem, 0.1875rem);
 }
 
-#middleElevator-Image{
+#middleElevator-Image {
     width: 100%;
     height: auto;
 }
 
-.downElevator{
+.downElevator {
     position: absolute;
     background-color: white;
     width: 34.5rem;
@@ -1323,12 +1424,12 @@ article#Elevator{
     z-index: 6;
 }
 
-.downElevator-Header{
+.downElevator-Header {
     width: 34.375rem;
     height: 2.5rem;
 }
 
-#downElevator-Paragraph{
+#downElevator-Paragraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     display: flex;
@@ -1339,16 +1440,17 @@ article#Elevator{
     height: 3.125rem;
 }
 
-.downElevator-buttons{
-    transform: translate(13.6875rem,0.1875rem);
+.downElevator-buttons {
+    transform: translate(13.6875rem, 0.1875rem);
 }
 
-#downElevator-Image{
+#downElevator-Image {
     width: 100%;
     height: auto;
-   
+
 }
-.upElevator{
+
+.upElevator {
     position: absolute;
     background-color: white;
     width: 31.375rem;
@@ -1361,12 +1463,12 @@ article#Elevator{
 
 }
 
-.upElevator-Header{
+.upElevator-Header {
     width: 31.25rem;
     height: 2.5rem;
 }
 
-#upElevator-Paragraph{
+#upElevator-Paragraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     display: flex;
@@ -1377,15 +1479,15 @@ article#Elevator{
     height: 3.125rem;
 }
 
-.upElevator-buttons{
-    transform: translate(12.125rem,0.1875rem);
+.upElevator-buttons {
+    transform: translate(12.125rem, 0.1875rem);
 }
 
-#upElevator-Image{
+#upElevator-Image {
     padding-top: 1.25rem;
 }
 
-.Pocky{
+.Pocky {
     position: absolute;
     background-color: white;
     width: 28.25rem;
@@ -1397,12 +1499,26 @@ article#Elevator{
     z-index: 7;
 }
 
-.Pocky-Header{
+#Pocky-text {
+    text-align: justify;
+    padding: 0rem 1.5625rem 1.5625rem 1.5625rem;
+
+
+}
+
+#Pocky-h4 {
+    text-align: justify;
+    padding: 2.8125rem 1.5625rem 0.1875rem 1.5625rem;
+
+
+}
+
+.Pocky-Header {
     width: 28.125rem;
     height: 2.5rem;
 }
 
-#Pocky-Paragraph{
+#Pocky-Paragraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     display: flex;
@@ -1413,11 +1529,11 @@ article#Elevator{
     height: 3.125rem;
 }
 
-.Pocky-buttons{
-    transform: translate(10.5625rem,0.1875rem);
+.Pocky-buttons {
+    transform: translate(10.5625rem, 0.1875rem);
 }
 
-.Mansion{
+.Mansion {
     position: absolute;
     background-color: white;
     width: 40.75rem;
@@ -1429,12 +1545,12 @@ article#Elevator{
     z-index: 7;
 }
 
-.Mansion-Header{
+.Mansion-Header {
     width: 40.625rem;
     height: 2.5rem;
 }
 
-#Mansion-Paragraph{
+#Mansion-Paragraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     display: flex;
@@ -1445,16 +1561,16 @@ article#Elevator{
     height: 3.125rem;
 }
 
-.Mansion-buttons{
-    transform: translate(16.8125rem,0.1875rem);
+.Mansion-buttons {
+    transform: translate(16.8125rem, 0.1875rem);
 }
 
-#Mansion-Image{
+#Mansion-Image {
     width: 100%;
     height: auto;
 }
 
-.elevator-Reference{
+.elevator-Reference {
     position: absolute;
     background-color: white;
     width: 28.25rem;
@@ -1466,12 +1582,26 @@ article#Elevator{
     z-index: 8;
 }
 
-.elevator-Reference-Header{
+#elevator-Reference-text {
+    text-align: justify;
+    padding: 0rem 1.5625rem 1.5625rem 1.5625rem;
+
+
+}
+
+#elevator-Reference-h4 {
+    text-align: justify;
+    padding: 2.8125rem 1.5625rem 0.1875rem 1.5625rem;
+
+
+}
+
+.elevator-Reference-Header {
     width: 28.125rem;
     height: 2.5rem;
 }
 
-#elevator-Reference-Paragraph{
+#elevator-Reference-Paragraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     display: flex;
@@ -1482,12 +1612,11 @@ article#Elevator{
     height: 3.125rem;
 }
 
-.elevator-Reference-buttons{
-    transform: translate(10.5625rem,0.1875rem);
+.elevator-Reference-buttons {
+    transform: translate(10.5625rem, 0.1875rem);
 }
---------------------------
 
-article#Ideas{
+-------------------------- article#Ideas {
     position: relative;
     box-sizing: border-box;
     margin: 0;
@@ -1496,11 +1625,11 @@ article#Ideas{
     min-height: 100vh;
     height: 75rem;
     text-align: center;
-    background-color:black;
+    background-color: black;
 
 }
 
-.Typography-image{
+.Typography-image {
     position: absolute;
     background-color: white;
     width: 37.625rem;
@@ -1513,12 +1642,12 @@ article#Ideas{
 
 }
 
-.Typography-image-Header{
+.Typography-image-Header {
     width: 37.5rem;
     height: 2.5rem;
 }
 
-#Typography-image-Paragraph{
+#Typography-image-Paragraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     display: flex;
@@ -1529,15 +1658,16 @@ article#Ideas{
     height: 3.125rem;
 }
 
-.Typography-image-buttons{
-    transform: translate(15.25rem,0.1875rem);
+.Typography-image-buttons {
+    transform: translate(15.25rem, 0.1875rem);
 }
-#Typography-image-Image{
+
+#Typography-image-Image {
     width: 100%;
     height: auto;
 }
 
-.cun{
+.cun {
     position: absolute;
     background-color: white;
     width: 15.75rem;
@@ -1549,12 +1679,26 @@ article#Ideas{
     z-index: 7;
 }
 
-.cun-Header{
+#cun-text {
+    text-align: justify;
+    padding: 0rem 1.5625rem 1.5625rem 1.5625rem;
+
+
+}
+
+#cun-h4 {
+    text-align: justify;
+    padding: 2.8125rem 1.5625rem 0.1875rem 1.5625rem;
+
+
+}
+
+.cun-Header {
     width: 15.625rem;
     height: 2.5rem;
 }
 
-#cun-Paragraph{
+#cun-Paragraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     display: flex;
@@ -1565,11 +1709,11 @@ article#Ideas{
     height: 3.125rem;
 }
 
-.cun-buttons{
-    transform: translate(4.3125rem,0.1875rem);
+.cun-buttons {
+    transform: translate(4.3125rem, 0.1875rem);
 }
 
-.collaterals{
+.collaterals {
     position: absolute;
     background-color: white;
     width: 31.375rem;
@@ -1582,12 +1726,12 @@ article#Ideas{
 
 }
 
-.collaterals-Header{
+.collaterals-Header {
     width: 31.25rem;
     height: 2.5rem;
 }
 
-#collaterals-Paragraph{
+#collaterals-Paragraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     display: flex;
@@ -1598,16 +1742,20 @@ article#Ideas{
     height: 3.125rem;
 }
 
-.collaterals-buttons{
-    transform: translate(12.125rem,0.1875rem);
+.collaterals-buttons {
+    transform: translate(12.125rem, 0.1875rem);
 }
 
-#collaterals-Image{
+#collaterals-Image {
     width: 100%;
     height: auto;
 }
 
-.cun-col{
+
+
+
+
+.cun-col {
     position: absolute;
     background-color: white;
     width: 22rem;
@@ -1619,12 +1767,12 @@ article#Ideas{
     z-index: 7;
 }
 
-.cun-col-Header{
+.cun-col-Header {
     width: 21.875rem;
     height: 2.5rem;
 }
 
-#cun-col-Paragraph{
+#cun-col-Paragraph {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.125rem;
     display: flex;
@@ -1635,130 +1783,34 @@ article#Ideas{
     height: 3.125rem;
 }
 
-.cun-col-buttons{
-    transform: translate(7.4375rem,0.1875rem);
+.cun-col-buttons {
+    transform: translate(7.4375rem, 0.1875rem);
 }
+
+
+
+#cun-col-text {
+    text-align: justify;
+    padding: 0rem 1.5625rem 1.5625rem 1.5625rem;
+
+
+}
+
+#cun-col-h4 {
+    text-align: justify;
+    padding: 2.8125rem 1.5625rem 0.1875rem 1.5625rem;
+
+
+}
+
+
+
+
+
+
+
+
+
+
 
 /*---------------------------------------------------------*/
-
-.folders-Icons>figure{
-    z-index:200;
-    float: left;
-    padding: 1.5625rem;
-}
-
-figure svg{
-    font-size: 3.125rem;
-}
-
-.interest-aside{
-    background-color:white;
-    width: 9.375rem;
-    height: 45.3125rem;
-    border-right:0.0625rem solid black ;
-    float: left;
-
-}
-
-.interest-star{
-    transform: translate(-22.5rem,-1.875rem);
-}
-
-#skillSet-text{
-    text-align: justify;
-    padding:2.8125rem 1.5625rem 1.5625rem 1.5625rem;
- 
-   
-}
-
-#fishy-text{
-    text-align: justify;
-    padding:0.3125rem 1.5625rem 1.5625rem 1.5625rem;
- 
-   
-}
-
-#fishy-h4{
-    text-align: justify;
-    padding:2.8125rem 1.5625rem 0.3125rem 1.5625rem;
- 
-   
-}
-
-#Compaign-text{
-    text-align: justify;
-    padding:0.3125rem 1.5625rem 1.5625rem 1.5625rem;
- 
-   
-}
-
-#Compaign-h4{
-    text-align: justify;
-    padding:2.8125rem 1.5625rem 0.3125rem 1.5625rem;
- 
-   
-}
-
-#Pocky-text{
-    text-align: justify;
-    padding:0rem 1.5625rem 1.5625rem 1.5625rem;
- 
-   
-}
-
-#Pocky-h4{
-    text-align: justify;
-    padding:2.8125rem 1.5625rem 0.1875rem 1.5625rem;
- 
-   
-}
-
-#elevator-Reference-text{
-    text-align: justify;
-    padding:0rem 1.5625rem 1.5625rem 1.5625rem;
- 
-   
-}
-
-#elevator-Reference-h4{
-    text-align: justify;
-    padding:2.8125rem 1.5625rem 0.1875rem 1.5625rem;
- 
-   
-}
-
-#cun-text{
-    text-align: justify;
-    padding:0rem 1.5625rem 1.5625rem 1.5625rem;
- 
-   
-}
-
-#cun-h4{
-    text-align: justify;
-    padding:2.8125rem 1.5625rem 0.1875rem 1.5625rem;
- 
-   
-}
-
-#cun-col-text{
-    text-align: justify;
-    padding:0rem 1.5625rem 1.5625rem 1.5625rem;
- 
-   
-}
-
-#cun-col-h4{
-    text-align: justify;
-    padding:2.8125rem 1.5625rem 0.1875rem 1.5625rem;
- 
-   
-}
-
-
-
-
-
-
-
-
