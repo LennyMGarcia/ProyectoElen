@@ -537,15 +537,21 @@ header.personHeader {
     position: absolute;
     background-color: white;
     width: 18.875rem;
-    height: 18.875rem;
+    height: 24.95rem;
     border-right: 0.125rem solid black;
     border-left: 0.125rem solid black;
     border-bottom: 0.125rem solid black;
-    transform: translate(43.75rem, -5.625rem);
+    transform: translate(43.75rem, -8.625rem);
     z-index: 5;
 
 }
 
+#profile-image{
+    height: auto;
+    
+    object-fit: contain;
+    width: 100%;
+}
 #person-text {
     text-align: justify;
     padding-top: 0.9375rem;
@@ -592,7 +598,6 @@ div.interestfolder {
     margin-top: 9.375rem;
     border: 0.1875rem solid black;
     border-radius: 0.625rem;
-    box-shadow: 1.25rem 1.25rem 1.25rem #333;
     overflow: hidden;
     left: 2.5rem;
     z-index: 1;
